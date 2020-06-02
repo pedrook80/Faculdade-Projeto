@@ -1,35 +1,12 @@
-﻿<!doctype html>
-<html>
-<head>
-<!-- PopAds.net Popunder Code for viaserie.tk -->
-<script type="text/javascript" data-cfasync="false">
-  var _pop = _pop || [];
-  _pop.push(['siteId', 1377591]);
-  _pop.push(['minBid', 0.000000]);
-  _pop.push(['popundersPerIP', 0]);
-  _pop.push(['delayBetween', 0]);
-  _pop.push(['default', false]);
-  _pop.push(['defaultPerDay', 0]);
-  _pop.push(['topmostLayer', false]);
-  (function() {
-    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
-    var s = document.getElementsByTagName('script')[0]; 
-    pa.src = '//c1.popads.net/pop.js';
-    pa.onerror = function() {
-      var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
-      sa.src = '//c2.popads.net/pop.js';
-      s.parentNode.insertBefore(sa, s);
-    };
-    s.parentNode.insertBefore(pa, s);
-  })();
-</script>
-<!-- PopAds.net Popunder Code End -->
+<?php @session_start()?>
+<!DOCTYPE html >
+<html><head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="css/bootstrap(2-broke-girls) eps.css" rel="stylesheet" type="text/css">
+<link href="css/profile.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="images/vsicon.png">
-<title>2 Broke Girls T01EP01</title>
+<title>VIA SÉRIE</title>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -40,18 +17,26 @@
   ga('send', 'pageview');
 
 </script>
+<?php
+if((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true) and (!isset ($_SESSION['nome']) == true))
+{
+  unset($_SESSION['email']);
+  unset($_SESSION['senha']);
+  unset($_SESSION['nome']);
+  header('location:login.php');
+  }
+
+$logado = $_SESSION['email'];
+?>
 </head>
 <body>
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img alt="" src="images/logo2.png"/></div>
  <div class="container">
-  <!-- Header -->
-  <header class="header">
-  </header>
   <div class=" menu-item-43">
     <nav id="menu" class="container">
       <ul id="menu-top-menu" class="sf-menu">
-        <li id="menu-item-09"><a href="index.html">Início</a></li>
+        <li id="menu-item-09"><a href="index.php"><b>Início</b></a></li>
         <li id="menu-item-10"><a href="categoria123.html">#</a></li>
         <li id="menu-item-11"><a href="categoriaA.html">A</a></li>
         <li id="menu-item-12"><a href="categoriaB.html">B</a></li>
@@ -79,11 +64,12 @@
         <li id="menu-item-34"><a href="categoriaX.html">X</a></li>
         <li id="menu-item-35"><a href="categoriaY.html">Y</a></li>
         <li id="menu-item-36"><a href="categoriaZ.html">Z</a></li>
+        <li id="menu-item-37"><a href="profile.php"><u>Perfil</u></a></li>
       </ul>
     </nav></div>
     	<select id="select" class="container" onchange="window.location=this.value">
-        	<option value="#" selected="selected">Menu - Lista de Série s A - Z...</option>
-    		<option value="index.html"> Início</option>
+        	<option value="#">Menu - Lista de Série s A - Z...</option>
+    		<option value="http://viaserie.tk/"> Início</option>
     		<option value="categoria123.html">Categoria #</option>
     		<option value="categoriaA.html">Categoria A</option>
    	 		<option value="categoriaB.html">Categoria B</option>
@@ -111,22 +97,59 @@
     		<option value="categoriaX.html">Categoria X</option>
     		<option value="categoriaY.html">Categoria Y</option>
     		<option value="categoriaZ.html">Categoria Z</option>
+        <option value="profile.php" selected="selected">Perfil</option>
     	</select>
   <div class="gallery">
-  		<div class="thumbnail">
-       	<video autoplay controls  width="500" class="cards">
-<source src="http://wi1.azureedge.net/RedeCanais/RCServer09/ondemand/2BRKGLT01EP01.mp4" type="video/mp4" src="hd">
-</source>
-</video>
-        <h4>2 Broke Girls T01EP01</h4>
-        </div></div>
-        <!-- Footer Section -->
+    <div class="thumbnail">
+     <div class="container">
+    <div class="row profile">
+    <div class="col-md-3">
+      <div class="profile-sidebar">
+        <!-- SIDEBAR USERPIC -->
+        <div class="profile-userpic">
+          <img src="images/profile-logo.jpg" class="cards" alt="">
+        </div>
+        <!-- END SIDEBAR USERPIC -->
+        <!-- SIDEBAR USER TITLE -->
+        <div class="profile-usertitle">
+          <div class="profile-usertitle-name">
+            <?php echo $_SESSION['nome'];?>
+          </div>
+          <div class="profile-usertitle-email">
+            <?php echo $_SESSION['email'];?>
+          </div>
+        </div>
+        <!-- END SIDEBAR USER TITLE -->
+        <!-- SIDEBAR BUTTONS -->
+        <div class="profile-userbuttons">
+          <div class="botao"><a href="alterar.php">Editar Perfil</a></div>
+		  <div class="botao-sair"><p><a href="sair.php">Sair</a></p></div>
+        </div>
+        <!-- END SIDEBAR BUTTONS -->
+        <!-- SIDEBAR MENU -->
+        </div>
+        <!-- END MENU -->
+      </div>
+    </div>
+  </div>
+</div>
+<center>
+<br>
+<br>
+		</div>
+  </div>
+  <!-- Footer Section -->
   <footer id="contact">
     <p class="hero_header">SENTIU FALTA DE ALGUMA SÉRIE </p>
     <div class="button"><a style="text-decoration:none; color:#FFFFFF" href="contato.html">CONTATE-NOS</a></div>
   </footer>
   <!-- Copyrights Section -->
-  <div class="copyright">&copy;2018 - <strong style="color:#12E19D">VIA SÉRIE </strong></div>
-  </div>
+  <div class="copyright">&copy;2019 - <a style="text-decoration:none" href="index.html"><strong style="color:#12E19D">VIA SÉRIE </strong></a></div>
+	</div></div>
+<!-- Main Container Ends 
+<aside id="text-5" class="widget widget_text clearfix"><h3 class="heading"><span>Mais Populares</span></h3><div class="textwidget"><div class="entry-listing clearfix">
+</div>
+</div>
+</aside>-->
 </body>
 </html>
