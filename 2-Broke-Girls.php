@@ -102,11 +102,9 @@
       <p class="text_column2">Atores: Kat Dennings, Beth Behrs, Matthew Moy </p>
       <p class="text_column2">Status: Em produção</p>
       <p class="text_column2">Duração: 22 minutos</p>
-	<div class="button-download">
-<a href="#" download="2 Broke Girls">Baixar Todas as Temporadas</a></div>
       <div class="position_baixo">
       <div class="alinhamento">
-        <h3 class="thumb22"><span>1ª Temporada</span>&nbsp&nbsp&nbsp<span><a href="magnet:?xt=urn:btih:9C29DBB28FF4176B00EB043214D045478DA1F3ED&dn=2%20Broke%20Girls%201%c2%aa%20Temporada%20%282011%29%20BDRip%20720p%20Dual%20Audio%20%28ToTTi9%29%20ThePirateFilmes&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.ccc.de%3a80%2fannounce" download="2 Broke Girls"><img src="images/download.png" /></a></span></h3>
+          <h3 class="thumb22"><span>1ª Temporada</span>&nbsp&nbsp&nbsp<span><a href="magnet:?xt=urn:btih:9C29DBB28FF4176B00EB043214D045478DA1F3ED&dn=2%20Broke%20Girls%201%c2%aa%20Temporada%20%282011%29%20BDRip%20720p%20Dual%20Audio%20%28ToTTi9%29%20ThePirateFilmes&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.ccc.de%3a80%2fannounce" download="2 Broke Girls"><img src="images/download.png" style="width: 30px"  /></a></span></h3>
 		<div id="epsetemps">
         <ul class="temps" id="temp1">
         	<li><a href="2-Broke-Girls-T01EP01.php" class="text">2 Broke Girls T01EP01</a></li>
@@ -135,7 +133,7 @@
             <li><a href="2-Broke-Girls-T01EP24.php" class="text">2 Broke Girls T01EP24</a></li>
           </ul></div></div>
 			<div class="alinhamento1">
-          <h3 class="heading"><span>2ª Temporada</span>&nbsp&nbsp&nbsp<span><a href="magnet:?xt=urn:btih:4B1C6E88AA8762D272D0DD8A336298F6468E2428&dn=2%20Broke%20Girls%20-%202%c2%aa%20Temporada%20%282012%29%20Dublado%20720p%20%28By-LuanHarper%29&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.trackerfix.com%3a80%2fannounce&tr=udp%3a%2f%2f9.rarbg.me%3a2710%2fannounce&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=http%3a%2f%2fpow7.com%2fannounce&tr=%2audp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fcoppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.istole.it%3a80%2fannounce&tr=http%3a%2f%2ftracker.blazing.de%2fannounce&tr=http%3a%2f%2ft2.pow7.com%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2f%2fannounce" download="2 Broke Girls"><img src="images/download.png" /></a></span></h3>
+          <h3 class="heading"><span>2ª Temporada</span>&nbsp&nbsp&nbsp<span><a href="magnet:?xt=urn:btih:4B1C6E88AA8762D272D0DD8A336298F6468E2428&dn=2%20Broke%20Girls%20-%202%c2%aa%20Temporada%20%282012%29%20Dublado%20720p%20%28By-LuanHarper%29&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.trackerfix.com%3a80%2fannounce&tr=udp%3a%2f%2f9.rarbg.me%3a2710%2fannounce&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=http%3a%2f%2fpow7.com%2fannounce&tr=%2audp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fcoppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.istole.it%3a80%2fannounce&tr=http%3a%2f%2ftracker.blazing.de%2fannounce&tr=http%3a%2f%2ft2.pow7.com%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2f%2fannounce" download="2 Broke Girls"><img src="images/download.png" style="width: 30px"   /></a></span></h3>
 				  <div id="temp2"><ul id="lista_eps2">
 			<li><a href="2-Broke-Girls-T02EP01.php" class="text">2 Broke Girls T02EP01</a></li>
 			<li><a href="2-Broke-Girls-T02EP02.php" class="text">2 Broke Girls T02EP02</a></li>
@@ -161,9 +159,9 @@
             <li><a href="2-Broke-Girls-T02EP22.php" class="text">2 Broke Girls T02EP22</a></li>
             <li><a href="2-Broke-Girls-T02EP23.php" class="text">2 Broke Girls T02EP23</a></li>
             <li><a href="2-Broke-Girls-T02EP24.php" class="text">2 Broke Girls T02EP24</a></li>
-         </ul></div></div>
+         </ul></div></div><br/>
 		<div class="alinhamento">
-		<h3 class="heading"><span>3ª Temporada</span>&nbsp&nbsp&nbsp<span><a href="magnet:?xt=urn:btih:289227CAC50768010D82B3158AAA80A8BE58B342&dn=2%20Broke%20Girls%20-%203%c2%aa%20Temporada%20%282013%29%20Dublado%20720p%20%28By-LuanHarper%29&tr=udp%3a%2f%2ftracker.trackerfix.com%3a80%2fannounce&tr=udp%3a%2f%2f9.rarbg.me%3a2710%2fannounce&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=http%3a%2f%2fpow7.com%2fannounce&tr=%2audp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fcoppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.istole.it%3a80%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2fannounce&tr=http%3a%2f%2ftracker.blazing.de%2fannounce&tr=http%3a%2f%2ft2.pow7.com%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2f%2fannounce" download="2 Broke Girls"><img src="images/download.png" /></a></span></h3>
+		<h3 class="heading"><span>3ª Temporada</span>&nbsp&nbsp&nbsp<span><a href="magnet:?xt=urn:btih:289227CAC50768010D82B3158AAA80A8BE58B342&dn=2%20Broke%20Girls%20-%203%c2%aa%20Temporada%20%282013%29%20Dublado%20720p%20%28By-LuanHarper%29&tr=udp%3a%2f%2ftracker.trackerfix.com%3a80%2fannounce&tr=udp%3a%2f%2f9.rarbg.me%3a2710%2fannounce&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=http%3a%2f%2fpow7.com%2fannounce&tr=%2audp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fcoppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.istole.it%3a80%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2fannounce&tr=http%3a%2f%2ftracker.blazing.de%2fannounce&tr=http%3a%2f%2ft2.pow7.com%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2f%2fannounce" download="2 Broke Girls"><img src="images/download.png" style="width: 30px"   /></a></span></h3>
 			<div id="temp3"><ul class="temps" id="lista_eps3">
         	<li><a href="2-Broke-Girls-T03EP01.php" class="text">2 Broke Girls T03EP01</a></li>
         	<li><a href="2-Broke-Girls-T03EP02.php" class="text">2 Broke Girls T03EP02</a></li>
@@ -191,7 +189,7 @@
         	<li><a href="2-Broke-Girls-T03EP24.php" class="text">2 Broke Girls T03EP24</a></li>
 		</ul></div></div>
 	<div class="alinhamento1">
-	<h3 class="heading"><span>4ª Temporada</span>&nbsp&nbsp&nbsp<span><a href="magnet:?xt=urn:btih:AD95136F29C9E0809F77718A6E114F66746E34AF&dn=2%20Broke%20Girls%204%c2%aa%20Temporada.Dual&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.ccc.de%3a80%2fannounce&tr=http%3a%2f%2ftracker1.wasabii.com.tw%3a6969%2fannounce&tr=http%3a%2f%2ftracker.tfile.me%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=http%3a%2f%2fmgtracker.org%3a2710%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2710%2fannounce&tr=udp%3a%2f%2f9.rarbg.me%3a2710%2fannounce&tr=http%3a%2f%2ft2.pow7.com%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce" download="2 Broke Girls"><img src="images/download.png" /></a></span></h3>
+	<h3 class="heading"><span>4ª Temporada</span>&nbsp&nbsp&nbsp<span><a href="magnet:?xt=urn:btih:AD95136F29C9E0809F77718A6E114F66746E34AF&dn=2%20Broke%20Girls%204%c2%aa%20Temporada.Dual&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.ccc.de%3a80%2fannounce&tr=http%3a%2f%2ftracker1.wasabii.com.tw%3a6969%2fannounce&tr=http%3a%2f%2ftracker.tfile.me%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=http%3a%2f%2fmgtracker.org%3a2710%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2710%2fannounce&tr=udp%3a%2f%2f9.rarbg.me%3a2710%2fannounce&tr=http%3a%2f%2ft2.pow7.com%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce" download="2 Broke Girls"><img src="images/download.png" style="width: 30px"   /></a></span></h3>
 			<div id="temp4"><ul id="lista_eps4">
         	<li><a href="2-Broke-Girls-T04EP01.php" class="text">2 Broke Girls T04EP01</a></li>
         	<li><a href="2-Broke-Girls-T04EP02.php" class="text">2 Broke Girls T04EP02</a></li>
@@ -215,9 +213,9 @@
         	<li><a href="2-Broke-Girls-T04EP20.php" class="text">2 Broke Girls T04EP20</a></li>
         	<li><a href="2-Broke-Girls-T04EP21.php" class="text">2 Broke Girls T04EP21</a></li>
         	<li><a href="2-Broke-Girls-T04EP22.php" class="text">2 Broke Girls T04EP22</a></li>
-		</ul></div></div>
+		</ul></div></div><br/><br/>
 	<div class="alinhamento">
-	<h3 class="heading"><span>5ª Temporada</span>&nbsp&nbsp&nbsp<span><a href="#" download="2 Broke Girls"><img src="images/download.png" /></a></span></h3>
+	<h3 class="heading"><span>5ª Temporada</span>&nbsp&nbsp&nbsp<span><a href="#" download="2 Broke Girls"><img src="images/download.png" style="width: 30px"   /></a></span></h3>
 			<div id="temp5"><ul class="temps" id="lista_eps5">
         	<li><a href="2-Broke-Girls-T05EP01.php" class="text">2 Broke Girls T05EP01</a></li>
         	<li><a href="2-Broke-Girls-T05EP02.php" class="text">2 Broke Girls T05EP02</a></li>
@@ -243,7 +241,7 @@
         	<li><a href="2-Broke-Girls-T05EP22.php" class="text">2 Broke Girls T05EP22</a></li>
 				</ul></div></div>
 		<div class="alinhamento1">
-	  	<h3 class="heading"><span>6ª Temporada</span>&nbsp&nbsp&nbsp<span><a href="#" download="2 Broke Girls"><img src="images/download.png" /></a></span></h3>
+	  	<h3 class="heading"><span>6ª Temporada</span>&nbsp&nbsp&nbsp<span><a href="#" download="2 Broke Girls"><img src="images/download.png" style="width: 30px"   /></a></span></h3>
 			<div id="temp6"><ul id="lista_eps6">
         	<li><a href="2-Broke-Girls-T06EP01-02.php" class="text">2 Broke Girls T06EP01 / 02</a></li>
         	<!--<li><a href="2-Broke-Girls-T06EP02.php" class="text">2 Broke Girls T06EP02</a></li>-->
