@@ -151,6 +151,12 @@ p {
 	padding-right: 20px;
 	padding-bottom:10px;
 }
+.gallery .thumbnail h3 img{
+	width: 20px;
+}
+.gallery .thumbnail h3 img:hover{
+	width: 25px;
+}
 p {	
 	margin: 0;
 	color: #BA281D;
@@ -158,16 +164,19 @@ p {
 	padding-left: 20px;
 
 }
+.position_baixo{
+	clear: left;
+}
 .alinhamento {
 	width: 30%;
+	height:500px;
 	float: left;
 }
-#alinhamento1 {
+.alinhamento1 {
 	width: 100%;
+	height: 500px;
 }
-#alinhabaixo {
-	float: left;
-}
+
 .ver {
 	padding-top: 25px;
 	padding-bottom: 20px;
@@ -183,6 +192,37 @@ footer {
 	text-align: center;
 	margin: 0;
 	letter-spacing: 4px;
+}
+.button-download {
+	width: 200px;
+	float: left;
+	margin-top: 4px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #717070;
+	transition: all 0.3s linear;
+}
+.button-download a {
+	text-decoration: none;
+	color: #8F3500;
+}
+.button-download:hover a {
+	color: #FFFFFF;
+}
+.button-download:hover {
+	background-color: #8F3500;
+	cursor: pointer;
 }
 .button {
 	width: 200px;

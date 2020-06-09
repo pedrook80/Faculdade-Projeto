@@ -13,14 +13,14 @@ body {
 	background-color: #FFFFFF;
 }
 /* Header */
-header {
+.corp {
 	width: 90%;
 	padding: 52px;
 	padding-bottom:80px;
 	float: left;
 	height: 8%;
-	background-image: url(../images/gotham_header_h_2015.jpg);
 	background-size: 920px;
+	background-image: url(../images/gotham_header_h_2015.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 }

@@ -6,22 +6,23 @@ body {
 	margin: 0;
 }
 /* Container */
+
+.corp{
+	background-image: url(../images/catalogo-4.jpg);
+	background-repeat: no-repeat;
+	background-position:left top;
+	background-size:1900px;
+	display: block;
+}
+.center {
+	padding-top: 52px;
+	padding-bottom: 20px;
+}
 .container {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #FFFFFF;
-}
-/* Header */
-header {
-	width: 90%;
-	padding: 52px;
-	float: left;
-	height: 8%;
-	background-image: url(../images/Gotham3.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 990px;
 }
 /* MENU */
 #select {
@@ -141,15 +142,13 @@ form {
 	max-height: 540px;
 	float:right;
 	background: #1D969C;
-	border: 9px #BD8221;
+	border: 12px #BD8221;
 	border-radius:25px;
 }
 input{ 
 	border-radius:49px;
 	border: #12E19D outset;
 	height:19px;
-} 
-.cont{
 }
 .copyright {
 	text-align: center;
