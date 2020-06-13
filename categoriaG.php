@@ -90,25 +90,25 @@
       <?php  } ?>
     	</select>
   <div class="gallery">
-    <div class="thumbnail"><a href="Game-Of-Thrones.php"><img src="images/Game-of-Thrones.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="Game-Of-Thrones.php">GAME OF THRONES</a></h4>
-      <p class="tag">Há muito tempo, em um tempo esquecido, uma força destruiu o equilíbrio das estações. Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida<a href="Game-Of-Thrones">Mais ...</a></p>
+    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/Game-of-Thrones.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="">GAME OF THRONES</a></h4>
+      <p class="tag">Há muito tempo, em um tempo esquecido, uma força destruiu o equilíbrio das estações. Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida<a href="">Mais ...</a></p>
     </div>
     <div class="thumbnail" id="thumbnail10"> <a href=""><img src="images/glees.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="">GLEE</a></h4>
-      <p class="tag">O professor de espanhol Will Schuester (Matthew Morrison) resolve comandar o coral da escola, Glee Club. Tentando dar nova vida ao grupo, ele procura diferentes alunos<a href="#">Mais ...</a></p>
+      <p class="tag">O professor de espanhol Will Schuester (Matthew Morrison) resolve comandar o coral da escola, Glee Club. Tentando dar nova vida ao grupo, ele procura diferentes alunos<a href="">Mais ...</a></p>
     </div>
     <div class="thumbnail"> <a href="Gotham.php"><img src="images/gotham.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="Gotham.php">GOTHAM</a></h4>
       <p class="tag">Barry Allen (Grant Gustin) era um funcionário da Polícia Científica que, ao sofrer um acidente, foi banhado por produtos químicos em seu laboratório e, em seguida, atingido por um<a href="Gotham.php">Mais ...</a></p>
     </div>
-    <div class="thumbnail"> <a href="Greys-Anatomy.php"><img src="images/greys-anatomy-top.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="Greys-Anatomy.php">GREY'S ANATOMY</a></h4>
+    <div class="thumbnail" id="thumbnail10"> <a href=""><img src="images/greys-anatomy-top.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="">GREY'S ANATOMY</a></h4>
       <p class="tag">Meredith Grey (Ellen Pompeo) começa a trabalhar no Seattle Grace Hospital e logo descobre que passou a noite com um dos seus chefes, Dr. Derek Shepherd (Patrick Dempsey)<a href="Greys-Anatomy">Mais ...</a></p>
     </div>
     <div class="thumbnail" id="thumbnail10"> <a href=""><img src="images/grimm.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="">GRIMM</a></h4>
-      <p class="tag">Nick Burkhardt (David Giuntoli) é um detetive de homicídios que recebe novas responsabilidades após descobrir que é descendente de Grimm, uma sociedade secreta<a href="#">Mais...</a></p>
+      <p class="tag">Nick Burkhardt (David Giuntoli) é um detetive de homicídios que recebe novas responsabilidades após descobrir que é descendente de Grimm, uma sociedade secreta<a href="">Mais...</a></p>
 	  </div></div>
   <!-- Footer Section -->
   <footer id="contact">
@@ -118,10 +118,5 @@
   <!-- Copyrights Section -->
   <div class="copyright">&copy;2020 - <a style="text-decoration:none" href="index.php"><strong style="color:#12E19D">VIA SÉRIE </strong></a></div>
 	</div>
-<!-- Main Container Ends 
-<aside id="text-5" class="widget widget_text clearfix"><h3 class="heading"><span>Mais Populares</span></h3><div class="textwidget"><div class="entry-listing clearfix">
-</div>
-</div>
-</aside>-->
 </body>
 </html>

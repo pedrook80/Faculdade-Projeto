@@ -77,11 +77,11 @@
     		<option value="categoriaZ.php">Categoria Z</option>
     	</select>
   <div class="gallery">
-    <div class="thumbnail" id="thumbnail10"><a href="Agent-Carter.php"><img src="images/agent carter.jpg" alt="" width="2000" class="cards"/></a>
+    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/agent carter.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="">AGENT CARTER</a></h4>
       <p class="tag">Agent Carter conta a história Peggy Carter (Hayley Atwell). O ano é 1946, e Peggy se encontra marginalizada quando os homens retornam ao lar após a Guerra. Trabalhando<a href="Agent-Carter">Mais ...</a></p> 
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href="Agents-Of-Shield.php"><img src="images/agents_of_shield.jpg" alt="" width="2000" class="cards"/></a>
+    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/agents_of_shield.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="">Agents of S.H.I.E.L.D</a></h4>
       <p class="tag">Após os acontecimentos em Nova York, retratados em Os Vingadores, a S.H.I.E.L.D. (Superintendência Humana de Intervenção, Espionagem, Logística e Dissuasão) deve mobilizar<a href="Agents-Of-Shield">Mais ...</a></p>
     </div>
@@ -89,11 +89,11 @@
       <h4><a href="">ALPHAS</a></h4>
       <p class="tag">Após a morte de uma testemunha em um tribunal, o Dr. Lee Rosen (David Strathairn) lidera um time de "Alfas" (seres humanos avançados) que tem habilidades<a href="#">Mais ...</a></p>
       </div>
-      <div class="thumbnail" id="thumbnail10"><a href="American-Horror-Story.php"><img src="images/american-horror-story.jpg" alt="" width="2000" class="cards"/></a>
+      <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/american-horror-story.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="">AMERICAN HORROR STORY</a></h4>
       <p class="tag">American Horror Story é uma série de terror e suspense, que, a cada temporada, conta uma nova história centrada em um tema e com <a href="American-Horror-Story.php">Mais ...</a></p>
       </div>
-      <div class="thumbnail" id="thumbnail10"><a href="Arrow.php"><img src="images/Arrow.jpg" alt="" width="2000" class="cards"/></a>
+      <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/Arrow.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="">ARROW</a></h4>
       <p class="tag">Playboy, milionário e mulherengo, Oliver Queen (Stephen Amell) está presumivelmente morto há 5 anos, quando um acidente de iate causou o desaparecimento dele<a href="Arrow.php">Mais ...</a></p> 
     </div>   
@@ -114,10 +114,5 @@
   <!-- Copyrights Section -->
   <div class="copyright">&copy;2020 - <a style="text-decoration:none" href="index.php"><strong style="color:#12E19D">VIA SÉRIE </strong></a></div>
 </div>
-<!-- Main Container Ends 
-<aside id="text-5" class="widget widget_text clearfix"><h3 class="heading"><span>Mais Populares</span></h3><div class="textwidget"><div class="entry-listing clearfix">
-</div>
-</div>
-</aside>-->
 </body>
 </html>

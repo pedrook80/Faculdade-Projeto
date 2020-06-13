@@ -1,45 +1,13 @@
 ﻿<!doctype html>
 <html>
 <head>
-<!-- PopAds.net Popunder Code for viaserie.tk
-<script type="text/javascript" data-cfasync="false">
-  var _pop = _pop || [];
-  _pop.push(['siteId', 1377591]);
-  _pop.push(['minBid', 0.000000]);
-  _pop.push(['popundersPerIP', 0]);
-  _pop.push(['delayBetween', 0]);
-  _pop.push(['default', false]);
-  _pop.push(['defaultPerDay', 0]);
-  _pop.push(['topmostLayer', false]);
-  (function() {
-    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
-    var s = document.getElementsByTagName('script')[0]; 
-    pa.src = '//c1.popads.net/pop.js';
-    pa.onerror = function() {
-      var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
-      sa.src = '//c2.popads.net/pop.js';
-      s.parentNode.insertBefore(sa, s);
-    };
-    s.parentNode.insertBefore(pa, s);
-  })();
-</script>
-<!-- PopAds.net Popunder Code End -->
+
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Categoria I</title>
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="images/vsicon.png">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-83545183-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </head>
 <body>
 <!-- Main Container -->
@@ -110,8 +78,8 @@
     		<option value="categoriaZ.php">Categoria Z</option>
     	</select>
   <div class="gallery">
-    <div class="thumbnail"><a href="iZombie.php"><img src="images/iZombie.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="iZombie.php">iZOMBIE</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/iZombie.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="">iZOMBIE</a></h4>
       <p class="tag">Olivia “Liv” Moore (Rose McIver) tinha bochechas rosadas, era disciplinada, médica residente com sua trajetória de vida completamente traçada… até a noite em que ela<a href="iZombie">Mais ...</a></p>
     </div>
   </div>

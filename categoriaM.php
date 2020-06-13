@@ -1,45 +1,12 @@
 ﻿<!doctype html>
 <html>
 <head>
-<!-- PopAds.net Popunder Code for viaserie.tk
-<script type="text/javascript" data-cfasync="false">
-  var _pop = _pop || [];
-  _pop.push(['siteId', 1377591]);
-  _pop.push(['minBid', 0.000000]);
-  _pop.push(['popundersPerIP', 0]);
-  _pop.push(['delayBetween', 0]);
-  _pop.push(['default', false]);
-  _pop.push(['defaultPerDay', 0]);
-  _pop.push(['topmostLayer', false]);
-  (function() {
-    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
-    var s = document.getElementsByTagName('script')[0]; 
-    pa.src = '//c1.popads.net/pop.js';
-    pa.onerror = function() {
-      var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
-      sa.src = '//c2.popads.net/pop.js';
-      s.parentNode.insertBefore(sa, s);
-    };
-    s.parentNode.insertBefore(pa, s);
-  })();
-</script>
-<!-- PopAds.net Popunder Code End -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Categoria M</title>
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="images/vsicon.png">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-83545183-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </head>
 <body>
 <!-- Main Container -->
@@ -131,10 +98,5 @@
   <!-- Copyrights Section -->
   <div class="copyright">&copy;2020 - <a style="text-decoration:none" href="index.php"><strong style="color:#12E19D">VIA SÉRIE </strong></a></div>
 </div>
-<!-- Main Container Ends 
-<aside id="text-5" class="widget widget_text clearfix"><h3 class="heading"><span>Mais Populares</span></h3><div class="textwidget"><div class="entry-listing clearfix">
-</div>
-</div>
-</aside>-->
 </body>
 </html>

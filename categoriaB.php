@@ -1,45 +1,12 @@
 ﻿<!doctype html>
 <html>
 <head>
-<!-- PopAds.net Popunder Code for viaserie.tk
-<script type="text/javascript" data-cfasync="false">
-  var _pop = _pop || [];
-  _pop.push(['siteId', 1377591]);
-  _pop.push(['minBid', 0.000000]);
-  _pop.push(['popundersPerIP', 0]);
-  _pop.push(['delayBetween', 0]);
-  _pop.push(['default', false]);
-  _pop.push(['defaultPerDay', 0]);
-  _pop.push(['topmostLayer', false]);
-  (function() {
-    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
-    var s = document.getElementsByTagName('script')[0]; 
-    pa.src = '//c1.popads.net/pop.js';
-    pa.onerror = function() {
-      var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
-      sa.src = '//c2.popads.net/pop.js';
-      s.parentNode.insertBefore(sa, s);
-    };
-    s.parentNode.insertBefore(pa, s);
-  })();
-</script>
-<!-- PopAds.net Popunder Code End -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Categoria B</title>
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="images/vsicon.png">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-83545183-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </head>
 <body>
 <!-- Main Container -->
@@ -110,8 +77,8 @@
     		<option value="categoriaZ.php">Categoria Z</option>
     	</select>
   <div class="gallery">
-    <div class="thumbnail"><a href="Bates-Motel.php"><img src="images/bates-motel.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="Bates-Motel.php">BATES MOTEL</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="Bates-Motel.php"><img src="images/bates-motel.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="">BATES MOTEL</a></h4>
       <p class="tag">Após a misteriosa morte de seu marido, Norma Bates decidiu começar uma nova vida longe do Arizona, na pequena cidade de White Pine Bay, em Oregon, e leva o filho<a href="Bates-Motel">Mais ...</a></p>
     </div>
     <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/beauty_and_the_beast.jpg" alt="" width="2000" class="cards"/></a>
@@ -130,16 +97,16 @@
       <h4><a href="">BITTEN</a> </h4>
       <p class="tag">As aventuras de Elena Michaels (Laura Vandervoort), uma bela loira de 28 anos de idade que é a única lobisomem do sexo feminino em todo o mundo. Órfã, ela<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail"><a href="Black-Sails"><img class="cards" src="images/black-sails.jpg" alt="Assista série online." width="2000"/></a>
-      <h4><a href="Black-Sails.php">BLACK SAILS</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="Black-Sails"><img class="cards" src="images/black-sails.jpg" alt="Assista série online." width="2000"/></a>
+      <h4><a href="">BLACK SAILS</a></h4>
       <p class="tag">Ambientada 20 anos antes dos eventos que se sucedem no livro “Ilha do Tesouro”, de Robert Louis Stevenson, acompanha as aventuras do Capitão Flint (Toby Stephens) e sua tripulação<a href="Black-Sails">Mais ...</a></p>
       </div>
-      <div class="thumbnail"><a href="Blindspot.php"><img src="images/Blindspot.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="Blindspot.php">BLINDSPOT</a></h4>
+      <div class="thumbnail" id="thumbnail10"><a href="Blindspot.php"><img src="images/Blindspot.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="">BLINDSPOT</a></h4>
       <p class="tag">Blindspot conta a história de um agente do FBI que, misteriosamente, se vê em meio a uma conspiração. A história começa quando Jane Doe (Jaimie Alexander)<a href="Blindspot">Mais ...</a></p>
       </div>
-    <div class="thumbnail"><a href="Blood-&-Oil.php"><img src="images/bloodoil.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="Blood-&-Oil.php">BLOOD & OIL</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="Blood-&-Oil.php"><img src="images/bloodoil.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="">BLOOD & OIL</a></h4>
       <p class="tag">A maior descoberta de petróleo da história americana acabou desencadeando uma mudança na geopolítica e na economia de Dakota do Norte, em uma escala <a href="Blood-&-Oil">Mais ...</a></p>
       </div>
     <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/Breaking-Bad.jpg" alt="" width="2000" class="cards"/></a>
@@ -155,10 +122,5 @@
   </footer>
   <!-- Copyrights Section -->
   <div class="copyright">&copy;2020 - <a style="text-decoration:none" href="index.php"><strong style="color:#12E19D">VIA SÉRIE </strong></a></div>
-<!-- Main Container Ends 
-<aside id="text-5" class="widget widget_text clearfix"><h3 class="heading"><span>Mais Populares</span></h3><div class="textwidget"><div class="entry-listing clearfix">
-</div>
-</div>
-</aside>-->
 </body>
 </html>
