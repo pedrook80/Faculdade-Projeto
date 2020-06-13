@@ -110,7 +110,7 @@
     </div>
   </div>
   <!-- Copyrights Section -->
-  <div class="copyright">&copy;2019 - <a style="text-decoration:none" href="index.php"><strong style="color:#12E19D">VIA SÉRIE </strong></a></div>
+  <div class="copyright">&copy;2020 - <a style="text-decoration:none" href="index.php"><strong style="color:#12E19D">VIA SÉRIE </strong></a></div>
 </div>
 </body>
 </html>

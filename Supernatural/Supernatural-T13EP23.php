@@ -125,7 +125,7 @@
     <div class="button"><a style="text-decoration:none; color:#FFFFFF" href="contato.php">CONTATE-NOS</a></div>
   </footer>
   <!-- Copyrights Section -->
-  <div class="copyright">&copy;2019- <strong style="color:#12E19D">VIA SÉRIE </strong></div>
+  <div class="copyright">&copy;2020- <strong style="color:#12E19D">VIA SÉRIE </strong></div>
 	</div></div>
 </body>
 </html>

@@ -1,45 +1,12 @@
 ﻿<!doctype html>
 <html>
 <head>
-<!-- PopAds.net Popunder Code for viaserie.tk
-<script type="text/javascript" data-cfasync="false">
-  var _pop = _pop || [];
-  _pop.push(['siteId', 1377591]);
-  _pop.push(['minBid', 0.000000]);
-  _pop.push(['popundersPerIP', 0]);
-  _pop.push(['delayBetween', 0]);
-  _pop.push(['default', false]);
-  _pop.push(['defaultPerDay', 0]);
-  _pop.push(['topmostLayer', false]);
-  (function() {
-    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
-    var s = document.getElementsByTagName('script')[0]; 
-    pa.src = '//c1.popads.net/pop.js';
-    pa.onerror = function() {
-      var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
-      sa.src = '//c2.popads.net/pop.js';
-      s.parentNode.insertBefore(sa, s);
-    };
-    s.parentNode.insertBefore(pa, s);
-  })();
-</script>
-<!-- PopAds.net Popunder Code End -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Categoria A</title>
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="images/vsicon.png">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-83545183-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </head>
 <body>
 <!-- Main Container -->
@@ -110,31 +77,31 @@
     		<option value="categoriaZ.php">Categoria Z</option>
     	</select>
   <div class="gallery">
-    <div class="thumbnail"><a href="Agent-Carter.php"><img src="images/agent carter.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="Agent-Carter.php">AGENT CARTER</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="Agent-Carter.php"><img src="images/agent carter.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="">AGENT CARTER</a></h4>
       <p class="tag">Agent Carter conta a história Peggy Carter (Hayley Atwell). O ano é 1946, e Peggy se encontra marginalizada quando os homens retornam ao lar após a Guerra. Trabalhando<a href="Agent-Carter">Mais ...</a></p> 
     </div>
-    <div class="thumbnail"><a href="Agents-Of-Shield.php"><img src="images/agents_of_shield.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="Agents-Of-Shield.php">Agents of S.H.I.E.L.D</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="Agents-Of-Shield.php"><img src="images/agents_of_shield.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="">Agents of S.H.I.E.L.D</a></h4>
       <p class="tag">Após os acontecimentos em Nova York, retratados em Os Vingadores, a S.H.I.E.L.D. (Superintendência Humana de Intervenção, Espionagem, Logística e Dissuasão) deve mobilizar<a href="Agents-Of-Shield">Mais ...</a></p>
     </div>
     <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/Alphas.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="">ALPHAS</a></h4>
       <p class="tag">Após a morte de uma testemunha em um tribunal, o Dr. Lee Rosen (David Strathairn) lidera um time de "Alfas" (seres humanos avançados) que tem habilidades<a href="#">Mais ...</a></p>
       </div>
-      <div class="thumbnail"><a href="American-Horror-Story.php"><img src="images/american-horror-story.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="American-Horror-Story.php">AMERICAN HORROR STORY</a></h4>
+      <div class="thumbnail" id="thumbnail10"><a href="American-Horror-Story.php"><img src="images/american-horror-story.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="">AMERICAN HORROR STORY</a></h4>
       <p class="tag">American Horror Story é uma série de terror e suspense, que, a cada temporada, conta uma nova história centrada em um tema e com <a href="American-Horror-Story.php">Mais ...</a></p>
       </div>
-      <div class="thumbnail"><a href="Arrow.php"><img src="images/Arrow.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="Arrow.php">ARROW</a></h4>
+      <div class="thumbnail" id="thumbnail10"><a href="Arrow.php"><img src="images/Arrow.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="">ARROW</a></h4>
       <p class="tag">Playboy, milionário e mulherengo, Oliver Queen (Stephen Amell) está presumivelmente morto há 5 anos, quando um acidente de iate causou o desaparecimento dele<a href="Arrow.php">Mais ...</a></p> 
     </div>   
     <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/x-file.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="">Arquivo X</a></h4>
       <p class="tag">Os agentes do FBI Fox Mulder (David Duchovny) e Dana Scully (Gillian Anderson) são o oposto um do outro: ele acredita em atividades paranormais, e ela não<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail11"><a href=""><img src="images/Awkward_2.jpg" alt="" width="2000" class="cards"/></a>
+    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/Awkward_2.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="">AWKWARD</a></h4>
       <p class="tag">Awkward é uma dramédia que gira em torno da vida de Jenna Hamilton (Ashley Rickards), uma adolescente de 15 anos que, como muitas outras, sente-se invisível e <a href="#">Mais ...</a></p>
     </div>
@@ -145,7 +112,7 @@
     <div class="button"><a style="text-decoration:none; color:#FFFFFF" href="contato.php">CONTATE-NOS</a></div>
   </footer>
   <!-- Copyrights Section -->
-  <div class="copyright">&copy;2019 - <a style="text-decoration:none" href="index.php"><strong style="color:#12E19D">VIA SÉRIE </strong></a></div>
+  <div class="copyright">&copy;2020 - <a style="text-decoration:none" href="index.php"><strong style="color:#12E19D">VIA SÉRIE </strong></a></div>
 </div>
 <!-- Main Container Ends 
 <aside id="text-5" class="widget widget_text clearfix"><h3 class="heading"><span>Mais Populares</span></h3><div class="textwidget"><div class="entry-listing clearfix">
