@@ -1,13 +1,13 @@
-﻿<!doctype html>
+﻿<?php @ session_start()?>
+<!DOCTYPE html >
 <html>
-<head>
+	<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Categoria K</title>
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="images/vsicon.png">
-</head>
+<link rel="shortcut icon" href="images/vsicon.png"></head>
 <body>
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img src="images/logo2.png"/></div>
@@ -43,6 +43,12 @@
         <li id="menu-item-34"><a href="categoriaX.php">X</a></li>
         <li id="menu-item-35"><a href="categoriaY.php">Y</a></li>
         <li id="menu-item-36"><a href="categoriaZ.php">Z</a></li>
+        <?php
+            if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <li id='menu-item-38'><a href='login.php'>Login / Cadastro</a></li>
+        <?php }  else { ?>
+      <li id='menu-item-38'><a href='profile.php'>Perfil</a></li>
+      <?php  } ?>
       </ul>
     </nav></div>
     	<select id="select" class="container" onchange="window.location=this.value">
@@ -75,10 +81,16 @@
     		<option value="categoriaX.php">Categoria X</option>
     		<option value="categoriaY.php">Categoria Y</option>
     		<option value="categoriaZ.php">Categoria Z</option>
-    	</select>
+        <?php
+          if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <option value="login.php">Login / Cadastro</option>
+        <?php }  else { ?>
+      <option value="profile.php">Perfil</option>
+      <?php  } ?>
+      </select>
   <div class="gallery">
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/kingdom.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">KINGDOM</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/kingdom.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">KINGDOM</a></h4>
       <p class="tag">Alvey (Frank Grillo) e Lisa (Kiele Sanchez) lutam para manter a academia Navy Street funcionando. A maior esperança que eles têm é Nate (Nick Jonas), filho de Alvey, aspirante<a href="#">Mais ...</a></p>
     </div>
   </div>

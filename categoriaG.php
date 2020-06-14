@@ -1,14 +1,13 @@
 ﻿<?php @ session_start()?>
-<!doctype html>
+<!DOCTYPE html >
 <html>
-<head>
+	<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Categoria G</title>
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="images/vsicon.png">
-</head>
+<link rel="shortcut icon" href="images/vsicon.png"></head>
 <body>
 
 <div class="corp"><div align="center" class="center"><img alt="" src="images/logo2.png"/></div>
@@ -90,25 +89,25 @@
       <?php  } ?>
     	</select>
   <div class="gallery">
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/Game-of-Thrones.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">GAME OF THRONES</a></h4>
-      <p class="tag">Há muito tempo, em um tempo esquecido, uma força destruiu o equilíbrio das estações. Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida<a href="">Mais ...</a></p>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/Game-of-Thrones.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">GAME OF THRONES</a></h4>
+      <p class="tag">Há muito tempo, em um tempo esquecido, uma força destruiu o equilíbrio das estações. Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"> <a href=""><img src="images/glees.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">GLEE</a></h4>
-      <p class="tag">O professor de espanhol Will Schuester (Matthew Morrison) resolve comandar o coral da escola, Glee Club. Tentando dar nova vida ao grupo, ele procura diferentes alunos<a href="">Mais ...</a></p>
+    <div class="thumbnail" id="thumbnail10"> <a href="#"><img src="images/glees.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">GLEE</a></h4>
+      <p class="tag">O professor de espanhol Will Schuester (Matthew Morrison) resolve comandar o coral da escola, Glee Club. Tentando dar nova vida ao grupo, ele procura diferentes alunos<a href="#">Mais ...</a></p>
     </div>
     <div class="thumbnail"> <a href="Gotham.php"><img src="images/gotham.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="Gotham.php">GOTHAM</a></h4>
       <p class="tag">Barry Allen (Grant Gustin) era um funcionário da Polícia Científica que, ao sofrer um acidente, foi banhado por produtos químicos em seu laboratório e, em seguida, atingido por um<a href="Gotham.php">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"> <a href=""><img src="images/greys-anatomy-top.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">GREY'S ANATOMY</a></h4>
+    <div class="thumbnail" id="thumbnail10"> <a href="#"><img src="images/greys-anatomy-top.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">GREY'S ANATOMY</a></h4>
       <p class="tag">Meredith Grey (Ellen Pompeo) começa a trabalhar no Seattle Grace Hospital e logo descobre que passou a noite com um dos seus chefes, Dr. Derek Shepherd (Patrick Dempsey)<a href="Greys-Anatomy">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"> <a href=""><img src="images/grimm.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">GRIMM</a></h4>
-      <p class="tag">Nick Burkhardt (David Giuntoli) é um detetive de homicídios que recebe novas responsabilidades após descobrir que é descendente de Grimm, uma sociedade secreta<a href="">Mais...</a></p>
+    <div class="thumbnail" id="thumbnail10"> <a href="#"><img src="images/grimm.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">GRIMM</a></h4>
+      <p class="tag">Nick Burkhardt (David Giuntoli) é um detetive de homicídios que recebe novas responsabilidades após descobrir que é descendente de Grimm, uma sociedade secreta<a href="#">Mais...</a></p>
 	  </div></div>
   <!-- Footer Section -->
   <footer id="contact">

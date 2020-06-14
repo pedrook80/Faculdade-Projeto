@@ -1,14 +1,13 @@
 ﻿<?php @ session_start()?>
-<!doctype html>
+<!DOCTYPE html >
 <html>
-<head>
+	<head>
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Categoria #</title>
-<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="images/vsicon.png">
-</head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Categoria #</title>
+		<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
+		<link rel="shortcut icon" href="images/vsicon.png"></head>
 <body>
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img src="images/logo2.png"/></div>
@@ -90,12 +89,12 @@
       <?php  } ?>
     	</select>
 <div class="gallery">
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/2broke.jpg" alt="" width="2000" class="cards"/></a>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/2broke.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="2-Broke-Girls.php">2 BROKE GIRLS</a></h4>
-      <p class="tag">2 Broke Girls narra a vida de duas garçonetes: Max, uma garota pobre, e Caroline, que nasceu rica mas perdeu tudo<a href="2-Broke-Girls.php">Mais ...</a></p>
+      <p class="tag">2 Broke Girls narra a vida de duas garçonetes: Max, uma garota pobre, e Caroline, que nasceu rica mas perdeu tudo<a href="#">Mais ...</a></p>
     </div>
-  <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/12monkeys.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">12 MONKEYS</a></h4>
+  <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/12monkeys.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">12 MONKEYS</a></h4>
       <p class="tag">Siga a jornada de um viajante no tempo de um futuro pós-apocalíptico, que aparece nos dias atuais em uma missão<a href="#">Mais ...</a></p>
     </div>
   </div>

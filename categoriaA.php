@@ -1,13 +1,13 @@
-﻿<!doctype html>
+﻿<?php @ session_start()?>
+<!DOCTYPE html >
 <html>
-<head>
+	<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Categoria A</title>
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="images/vsicon.png">
-</head>
+<link rel="shortcut icon" href="images/vsicon.png"></head>
 <body>
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img src="images/logo2.png"/></div>
@@ -43,6 +43,12 @@
         <li id="menu-item-34"><a href="categoriaX.php">X</a></li>
         <li id="menu-item-35"><a href="categoriaY.php">Y</a></li>
         <li id="menu-item-36"><a href="categoriaZ.php">Z</a></li>
+        <?php
+            if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <li id='menu-item-38'><a href='login.php'>Login / Cadastro</a></li>
+        <?php }  else { ?>
+      <li id='menu-item-38'><a href='profile.php'>Perfil</a></li>
+      <?php  } ?>
       </ul>
     </nav></div>
     	<select id="select" class="container" onchange="window.location=this.value">
@@ -50,7 +56,7 @@
     		<option value="index.php"> Início</option>
     		<option value="categoria123.php">Categoria #</option>
     		<option value="categoriaA.php" selected="selected">Categoria A</option>
-   	 		<option value="categoriaB.php">Categoria B</option>
+                <option value="categoriaB.php">Categoria B</option>
     		<option value="categoriaC.php">Categoria C</option>
     		<option value="categoriaD.php">Categoria D</option>
     		<option value="categoriaE.php">Categoria E</option>
@@ -75,34 +81,40 @@
     		<option value="categoriaX.php">Categoria X</option>
     		<option value="categoriaY.php">Categoria Y</option>
     		<option value="categoriaZ.php">Categoria Z</option>
-    	</select>
+        <?php
+          if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <option value="login.php">Login / Cadastro</option>
+        <?php }  else { ?>
+      <option value="profile.php">Perfil</option>
+      <?php  } ?>
+      </select>
   <div class="gallery">
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/agent carter.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">AGENT CARTER</a></h4>
-      <p class="tag">Agent Carter conta a história Peggy Carter (Hayley Atwell). O ano é 1946, e Peggy se encontra marginalizada quando os homens retornam ao lar após a Guerra. Trabalhando<a href="Agent-Carter">Mais ...</a></p> 
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/agent carter.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">AGENT CARTER</a></h4>
+      <p class="tag">Agent Carter conta a história Peggy Carter (Hayley Atwell). O ano é 1946, e Peggy se encontra marginalizada quando os homens retornam ao lar após a Guerra. Trabalhando<a href="#">Mais ...</a></p> 
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/agents_of_shield.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">Agents of S.H.I.E.L.D</a></h4>
-      <p class="tag">Após os acontecimentos em Nova York, retratados em Os Vingadores, a S.H.I.E.L.D. (Superintendência Humana de Intervenção, Espionagem, Logística e Dissuasão) deve mobilizar<a href="Agents-Of-Shield">Mais ...</a></p>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/agents_of_shield.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">Agents of S.H.I.E.L.D</a></h4>
+      <p class="tag">Após os acontecimentos em Nova York, retratados em Os Vingadores, a S.H.I.E.L.D. (Superintendência Humana de Intervenção, Espionagem, Logística e Dissuasão) deve mobilizar<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/Alphas.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">ALPHAS</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/Alphas.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">ALPHAS</a></h4>
       <p class="tag">Após a morte de uma testemunha em um tribunal, o Dr. Lee Rosen (David Strathairn) lidera um time de "Alfas" (seres humanos avançados) que tem habilidades<a href="#">Mais ...</a></p>
       </div>
-      <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/american-horror-story.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">AMERICAN HORROR STORY</a></h4>
-      <p class="tag">American Horror Story é uma série de terror e suspense, que, a cada temporada, conta uma nova história centrada em um tema e com <a href="American-Horror-Story.php">Mais ...</a></p>
+      <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/american-horror-story.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">AMERICAN HORROR STORY</a></h4>
+      <p class="tag">American Horror Story é uma série de terror e suspense, que, a cada temporada, conta uma nova história centrada em um tema e com <a href="#">Mais ...</a></p>
       </div>
-      <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/Arrow.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">ARROW</a></h4>
-      <p class="tag">Playboy, milionário e mulherengo, Oliver Queen (Stephen Amell) está presumivelmente morto há 5 anos, quando um acidente de iate causou o desaparecimento dele<a href="Arrow.php">Mais ...</a></p> 
+      <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/Arrow.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">ARROW</a></h4>
+      <p class="tag">Playboy, milionário e mulherengo, Oliver Queen (Stephen Amell) está presumivelmente morto há 5 anos, quando um acidente de iate causou o desaparecimento dele<a href="#">Mais ...</a></p> 
     </div>   
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/x-file.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">Arquivo X</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/x-file.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">Arquivo X</a></h4>
       <p class="tag">Os agentes do FBI Fox Mulder (David Duchovny) e Dana Scully (Gillian Anderson) são o oposto um do outro: ele acredita em atividades paranormais, e ela não<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/Awkward_2.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">AWKWARD</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/Awkward_2.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">AWKWARD</a></h4>
       <p class="tag">Awkward é uma dramédia que gira em torno da vida de Jenna Hamilton (Ashley Rickards), uma adolescente de 15 anos que, como muitas outras, sente-se invisível e <a href="#">Mais ...</a></p>
     </div>
     </div>

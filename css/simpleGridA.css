@@ -12,17 +12,6 @@ body {
 	margin-right: auto;
 	background-color: #FFFFFF;
 }
-/* Header */
-header {
-	width: 90%;
-	padding: 52px;
-	float: left;
-	height: 8%;
-	background-image: url(../images/Gotham3.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 990px;
-}
 /* MENU */
 #select {
 	display: none 
@@ -223,10 +212,7 @@ footer {
 	letter-spacing:25px;
 	padding-right: 50px;
 }
-.header {
-	padding-right:2px;
-	background-size: 320px;
-}
+
 #menu {
 	display:none;
 }
@@ -277,10 +263,7 @@ footer {
 	margin-bottom: 0px;
 	margin-left: 0px;
 }
-.header{
-	background-size: 550px;
-	padding-right:2px;
-}
+
 #menu {
 	display:none;
 }

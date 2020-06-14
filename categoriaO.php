@@ -1,46 +1,13 @@
-﻿<!doctype html>
+﻿<?php @ session_start()?>
+<!DOCTYPE html >
 <html>
-<head>
-<!-- PopAds.net Popunder Code for viaserie.tk
-<script type="text/javascript" data-cfasync="false">
-  var _pop = _pop || [];
-  _pop.push(['siteId', 1377591]);
-  _pop.push(['minBid', 0.000000]);
-  _pop.push(['popundersPerIP', 0]);
-  _pop.push(['delayBetween', 0]);
-  _pop.push(['default', false]);
-  _pop.push(['defaultPerDay', 0]);
-  _pop.push(['topmostLayer', false]);
-  (function() {
-    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
-    var s = document.getElementsByTagName('script')[0]; 
-    pa.src = '//c1.popads.net/pop.js';
-    pa.onerror = function() {
-      var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
-      sa.src = '//c2.popads.net/pop.js';
-      s.parentNode.insertBefore(sa, s);
-    };
-    s.parentNode.insertBefore(pa, s);
-  })();
-</script>
-<!-- PopAds.net Popunder Code End -->
+	<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Categoria O</title>
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="images/vsicon.png">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-83545183-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-</head>
+<link rel="shortcut icon" href="images/vsicon.png"></head>
 <body>
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img src="images/logo2.png"/></div>
@@ -76,6 +43,12 @@
         <li id="menu-item-34"><a href="categoriaX.php">X</a></li>
         <li id="menu-item-35"><a href="categoriaY.php">Y</a></li>
         <li id="menu-item-36"><a href="categoriaZ.php">Z</a></li>
+        <?php
+            if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <li id='menu-item-38'><a href='login.php'>Login / Cadastro</a></li>
+        <?php }  else { ?>
+      <li id='menu-item-38'><a href='profile.php'>Perfil</a></li>
+      <?php  } ?>
       </ul>
     </nav></div>
     	<select id="select" class="container" onchange="window.location=this.value">
@@ -108,26 +81,32 @@
     		<option value="categoriaX.php">Categoria X</option>
     		<option value="categoriaY.php">Categoria Y</option>
     		<option value="categoriaZ.php">Categoria Z</option>
-    	</select>
+        <?php
+          if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <option value="login.php">Login / Cadastro</option>
+        <?php }  else { ?>
+      <option value="profile.php">Perfil</option>
+      <?php  } ?>
+      </select>
   <div class="gallery">
     <div class="thumbnail"><a href="Once-Upon-A-Time.php"><img src="images/once-upon-a-time.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="Once-Upon-a-Time.php">ONCE UPON A TIME</a></h4>
       <p class="tag">Na cidade fictícia de Storybrooke, no Maine, Regina (Lana Parrilla) é uma rainha má que rouba memórias graças à maldição obtida por meio de Rumplestiltskin (Robert Carlyle)feitiço.<a href="Once-Upon-a-Time">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/onegocio.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">O NEGÓCIO</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/onegocio.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">O NEGÓCIO</a></h4>
       <p class="tag">Karin (Rafaela Mandelli), Luna (Juliana Schalch) e Magali (Michelle Batista) são profissionais naquilo que fazem. Sem perspectiva de melhorar a profissão, elas<a href="#">Mais ...</a></p>  
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/orange-is-the-new-black.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">ORANGE IS THE NEW BLACK</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/orange-is-the-new-black.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">ORANGE IS THE NEW BLACK</a></h4>
       <p class="tag">Piper Chapman é uma mulher na casa dos 30 anos que é sentenciada a 15 meses de prisão por um crime que cometeu há quase dez anos. Ela transportou dinheiro<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/orphan black.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">ORPHAN BLACK</a> </h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/orphan black.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">ORPHAN BLACK</a> </h4>
       <p class="tag">Depois de presenciar o suicídio de uma mulher (que é exatamente como ela) em uma estação de trem, Sarah Manning (Tatiana Maslany) faz o que qualquer um faria<a href="#">Mais ...</a></p> 
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/outcast.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">OUTCAST</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/outcast.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">OUTCAST</a></h4>
       <p class="tag">Kyle Barnes é um homem atormentado por uma possessão desde a infância. Agora, ele embarca em uma jornada espiritual determinado a descobrir a verdade<a href="#">Mais ...</a></p>
     </div>
 	</div>

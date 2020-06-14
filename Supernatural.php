@@ -1,36 +1,13 @@
-﻿<!doctype html>
+﻿<?php @ session_start()?>
+<!DOCTYPE html >
 <html>
-<head>
-<!-- PopAds.net Popunder Code for viaserie.tk
-<script type="text/javascript" data-cfasync="false">
-  var _pop = _pop || [];
-  _pop.push(['siteId', 1377591]);
-  _pop.push(['minBid', 0.000000]);
-  _pop.push(['popundersPerIP', 0]);
-  _pop.push(['delayBetween', 0]);
-  _pop.push(['default', false]);
-  _pop.push(['defaultPerDay', 0]);
-  _pop.push(['topmostLayer', false]);
-  (function() {
-    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
-    var s = document.getElementsByTagName('script')[0]; 
-    pa.src = '//c1.popads.net/pop.js';
-    pa.onerror = function() {
-      var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
-      sa.src = '//c2.popads.net/pop.js';
-      s.parentNode.insertBefore(sa, s);
-    };
-    s.parentNode.insertBefore(pa, s);
-  })();
-</script>
-<!-- PopAds.net Popunder Code End -->
+	<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Supernatural</title>
 <link href="css/bootstrap(supernatural).css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="images/vsicon.png">
-</head>
+<link rel="shortcut icon" href="images/vsicon.png"></head>
 <body>
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img alt="" src="images/logo2.png"/></div>
@@ -69,6 +46,12 @@
         <li id="menu-item-34"><a href="categoriaX.php">X</a></li>
         <li id="menu-item-35"><a href="categoriaY.php">Y</a></li>
         <li id="menu-item-36"><a href="categoriaZ.php">Z</a></li>
+        <?php
+            if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <li id='menu-item-38'><a href='login.php'>Login / Cadastro</a></li>
+        <?php }  else { ?>
+      <li id='menu-item-38'><a href='profile.php'>Perfil</a></li>
+      <?php  } ?>
       </ul>
     </nav></div>
     	<select id="select" class="container" onchange="window.location=this.value">
@@ -101,7 +84,13 @@
     		<option value="categoriaX.php">Categoria X</option>
     		<option value="categoriaY.php">Categoria Y</option>
     		<option value="categoriaZ.php">Categoria Z</option>
-    	</select>
+        <?php
+          if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <option value="login.php">Login / Cadastro</option>
+        <?php }  else { ?>
+      <option value="profile.php">Perfil</option>
+      <?php  } ?>
+      </select>
   <div class="gallery">
     <div class="thumbnail"><img src="images/Supernatural.jpg" alt="Supernatural" width="600" height="348" class="cards"/>
     <h4>SUPERNATURAL</h4>
@@ -116,270 +105,270 @@
 		<h3 class="thumb22"><span>1ª 10ª Temporada Em Breve</span></h3>
 			<!--<div id="epsetemps">
         		<ul class="temps" id="temp1">
-           	<li><a href="" title=".php" class="text">Supernatural T01EP01</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP02</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP03</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP04</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP05</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP06</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP07</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP08</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP09</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP10</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP11</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP12</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP13</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP14</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP15</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP16</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP17</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP18</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP19</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP20</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP21</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP22</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T01EP23</a></li>
+           	<li><a href="#" title=".php" class="text">Supernatural T01EP01</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP02</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP03</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP04</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP05</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP06</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP07</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP08</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP09</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP10</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP11</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP12</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP13</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP14</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP15</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP16</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP17</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP18</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP19</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP20</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP21</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP22</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T01EP23</a></li>
             </ul></div>
 		<h3 class="heading"><span>2ª Temporada</span></h3>
 			<div id="temp2">
 			<ul id="lista_eps2">
-     		<li><a href="" title=".php" class="text">Supernatural T02EP01</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP02</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP03</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP04</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP05</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP06</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP07</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP08</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP09</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP10</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP11</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP12</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP13</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP14</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP15</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP16</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP17</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP18</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP19</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP20</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP21</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP22</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T02EP23</a></li>
+     		<li><a href="#" title=".php" class="text">Supernatural T02EP01</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP02</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP03</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP04</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP05</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP06</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP07</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP08</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP09</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP10</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP11</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP12</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP13</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP14</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP15</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP16</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP17</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP18</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP19</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP20</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP21</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP22</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T02EP23</a></li>
               </ul></div>
 			<h3 class="heading"><span>3ª Temporada</span></h3>
 			<div id="temp3">
 			<ul id="lista_eps3">
-            <li><a href="" title=".php" class="text">Supernatural T03EP01</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP02</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP03</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP04</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP05</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP06</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP07</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP08</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP09</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP10</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP11</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP12</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP13</a></li>
-  			<li><a href="" title=".php" class="text">Supernatural T03EP14</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP15</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP16</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP17</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP18</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP19</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP20</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP21</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP22</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T03EP23</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP01</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP02</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP03</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP04</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP05</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP06</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP07</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP08</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP09</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP10</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP11</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP12</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP13</a></li>
+  			<li><a href="#" title=".php" class="text">Supernatural T03EP14</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP15</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP16</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP17</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP18</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP19</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP20</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP21</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP22</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T03EP23</a></li>
             	</ul></div>
            <h3 class="heading"><span>4ª Temporada</span></h3>
 			<div id="temp4">
 			<ul id="lista_eps4">
-            <li><a href="" title=".php" class="text">Supernatural T04EP01</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP02</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP03</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP04</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP05</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP06</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP07</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP08</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP09</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP10</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP11</a> </li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP12</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP13</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP14</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP15</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP16</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP17</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP18</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP19</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP20</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP21</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T04EP22</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP01</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP02</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP03</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP04</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP05</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP06</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP07</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP08</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP09</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP10</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP11</a> </li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP12</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP13</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP14</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP15</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP16</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP17</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP18</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP19</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP20</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP21</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T04EP22</a></li>
             </ul></div>
             <h3 class="heading"><span>5ª Temporada</span></h3>
            <div id="temp5">
 			<ul id="lista_eps5">
-            <li><a href="" title=".php" class="text">Supernatural T05EP01</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP02</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP03</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP04</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP05</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP06</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP07</a></li>
-            <li><a href="" title="" class="text" >Supernatural T05EP08</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP09</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP10</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP11</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP12</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP13</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP14</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP15</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP16</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP17</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP18</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP19</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP20</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP21</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T05EP22</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP01</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP02</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP03</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP04</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP05</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP06</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP07</a></li>
+            <li><a href="#" title="" class="text" >Supernatural T05EP08</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP09</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP10</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP11</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP12</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP13</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP14</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP15</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP16</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP17</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP18</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP19</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP20</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP21</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T05EP22</a></li>
             </ul>
            	</div>
             <h3 class="heading"><span>6ª Temporada</span></h3>
             <div id="temp6">
 			<ul id="lista_eps6">
-            <li><a href="" title=".php" class="text">Supernatural T06EP01</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP02</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP03</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP04</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP05</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP06</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP07</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP08</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP09</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP10</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP11</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP12</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP13</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP14</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP15</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP16</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP17</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP18</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP19</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP20</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP21</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T06EP22</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP01</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP02</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP03</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP04</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP05</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP06</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP07</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP08</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP09</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP10</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP11</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP12</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP13</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP14</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP15</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP16</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP17</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP18</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP19</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP20</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP21</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T06EP22</a></li>
             </ul></div>
             <h3 class="heading"><span>7ª Temporada</span></h3>
             <div id="temp7">
 			<ul id="lista_eps7">
-            <li><a href="" title=".php" class="text">Supernatural T07EP01</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP02</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP03</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP04</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP05</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP06</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP07</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP08</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP09</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP10</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP11</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP12</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP13</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP14</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP15</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP16</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP17</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP18</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP19</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP20</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP21</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T07EP22</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP01</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP02</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP03</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP04</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP05</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP06</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP07</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP08</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP09</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP10</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP11</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP12</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP13</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP14</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP15</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP16</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP17</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP18</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP19</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP20</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP21</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T07EP22</a></li>
             </ul></div>
             <h3 class="heading"><span>8ª Temporada</span></h3>
             <div id="temp8">
 			<ul id="lista_eps8">
-            <li><a href="" title=".php" class="text">Supernatural T08EP01</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP02</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP03</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP04</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP05</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP06</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP07</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP08</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP09</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP10</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP11</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP12</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP13</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP14</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP15</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP16</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP17</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP18</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP19</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP20</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP21</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP22</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T08EP23</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP01</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP02</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP03</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP04</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP05</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP06</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP07</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP08</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP09</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP10</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP11</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP12</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP13</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP14</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP15</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP16</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP17</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP18</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP19</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP20</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP21</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP22</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T08EP23</a></li>
             </ul></div>
             <h3 class="heading"><span>9ª Temporada</span></h3>
             <div id="temp9">
 			<ul id="lista_eps9">
-            <li><a href="" title=".php" class="text">Supernatural T09EP01</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP02</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP03</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP04</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP05</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP06</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP07</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP08</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP09</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP10</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP11</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP12</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP13</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP14</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP15</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP16</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP17</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP18</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP19</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP20</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP21</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP22</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T09EP23</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP01</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP02</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP03</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP04</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP05</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP06</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP07</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP08</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP09</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP10</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP11</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP12</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP13</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP14</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP15</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP16</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP17</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP18</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP19</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP20</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP21</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP22</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T09EP23</a></li>
             </ul></div>
             <h3 class="heading"><span>10ª Temporada</span></h3>
             <div id="temp10">
 			<ul id="lista_eps10">
-            <li><a href="" title=".php" class="text">Supernatural T10EP00</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP01</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP02</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP03</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP04</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP05</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP06</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP07</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP08</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP09</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP10</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP11</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP12</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP13</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP14</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP15</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP16</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP17</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP18</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP19</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP20</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP21</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP22</a></li>
-            <li><a href="" title=".php" class="text">Supernatural T10EP23</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP00</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP01</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP02</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP03</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP04</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP05</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP06</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP07</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP08</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP09</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP10</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP11</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP12</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP13</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP14</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP15</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP16</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP17</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP18</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP19</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP20</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP21</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP22</a></li>
+            <li><a href="#" title=".php" class="text">Supernatural T10EP23</a></li>
             </ul></div>-->
              <h3 class="heading"><span>11ª Temporada</span></h3>
             <div id="temp11">

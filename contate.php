@@ -1,35 +1,12 @@
-﻿<!doctype html>
+﻿<?php @ session_start()?>
+<!DOCTYPE html >
 <html>
-<head>
-<!-- PopAds.net Popunder Code for viaserie.tk
-<script type="text/javascript" data-cfasync="false">
-  var _pop = _pop || [];
-  _pop.push(['siteId', 1377591]);
-  _pop.push(['minBid', 0.000000]);
-  _pop.push(['popundersPerIP', 0]);
-  _pop.push(['delayBetween', 0]);
-  _pop.push(['default', false]);
-  _pop.push(['defaultPerDay', 0]);
-  _pop.push(['topmostLayer', false]);
-  (function() {
-    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
-    var s = document.getElementsByTagName('script')[0]; 
-    pa.src = '//c1.popads.net/pop.js';
-    pa.onerror = function() {
-      var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
-      sa.src = '//c2.popads.net/pop.js';
-      s.parentNode.insertBefore(sa, s);
-    };
-    s.parentNode.insertBefore(pa, s);
-  })();
-</script>
-<!-- PopAds.net Popunder Code End -->
+	<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>VIA SÉRIE </title>
-<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-</head>
+<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css"></head>
 <body>
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img alt="" src="images/logo2.png"/></div>
@@ -68,6 +45,12 @@
         <li id="menu-item-34"><a href="categoriaX.php">X</a></li>
         <li id="menu-item-35"><a href="categoriaY.php">Y</a></li>
         <li id="menu-item-36"><a href="categoriaZ.php">Z</a></li>
+        <?php
+            if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <li id='menu-item-38'><a href='login.php'>Login / Cadastro</a></li>
+        <?php }  else { ?>
+      <li id='menu-item-38'><a href='profile.php'>Perfil</a></li>
+      <?php  } ?>
       </ul>
     </nav></div>
     	<select id="select" class="container" onchange="window.location=this.value">
@@ -100,15 +83,21 @@
     		<option value="categoriaX.php">Categoria X</option>
     		<option value="categoriaY.php">Categoria Y</option>
     		<option value="categoriaZ.php">Categoria Z</option>
-    	</select>
+        <?php
+          if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <option value="login.php">Login / Cadastro</option>
+        <?php }  else { ?>
+      <option value="profile.php">Perfil</option>
+      <?php  } ?>
+      </select>
   <div class="gallery">
     <div class="thumbnail"><a href="The-100.php"><img src="images/the 100.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="The-100.php">THE 100</a></h4>
       <p class="tag">Quando uma guerra nuclear destruiu a civilização e o planeta Terra, os únicos sobreviventes foram 400 pessoas que estavam em 12 estações espaciais em órbita. 97 anos<a href="The-100.php">Mais ...</a></p>
     </div>
-    <div class="thumbnail"> <a href="Arrow.php"><img src="images/Arrow.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="Arrow.php">ARROW</a></h4>
-      <p class="tag">Playboy, milionário e mulherengo, Oliver Queen (Stephen Amell) está presumivelmente morto há 5 anos, quando um acidente de iate causou o desaparecimento dele, de seu pai<a href="Arrow.php">Mais ...</a></p>
+    <div class="thumbnail"> <a href="#"><img src="images/Arrow.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">ARROW</a></h4>
+      <p class="tag">Playboy, milionário e mulherengo, Oliver Queen (Stephen Amell) está presumivelmente morto há 5 anos, quando um acidente de iate causou o desaparecimento dele, de seu pai<a href="#">Mais ...</a></p>
     </div>
     <div class="thumbnail"> <a href="The-Flash.php"><img src="images/the flash.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="The-Flash.php">THE FLASH</a> </h4>
@@ -124,9 +113,9 @@
       <h4><a href="The-Big-Bang-Theory.php">THE BIG BANG THEORY</a></h4>
       <p class="tag">Leonard e Sheldon podem lhe dizer tudo o que você quiser saber sobre física quântica. Mas eles não seriam capazes de lhe dizer nada sobre a vida “real”, as relações<a href="The-Big-Bang-Theory.php">Mais ...</a></p>  
     </div>
-    <div class="thumbnail"> <a href=""><img src="images/the-walking-dead.jpg" alt="" width="2000" class="cards"/></a>
+    <div class="thumbnail"> <a href="#"><img src="images/the-walking-dead.jpg" alt="" width="2000" class="cards"/></a>
       <h4>THE WALKING DEAD</h4>
-      <p class="tag">Um Apocalipse provoca uma infestação de zumbis na cidade de Cynthiana, em Kentucky, nos Estados Unidos, e o oficial de polícia Rick Grimes (Andrew Lincoln) descobre que <a href="">Mais ...</a></p>
+      <p class="tag">Um Apocalipse provoca uma infestação de zumbis na cidade de Cynthiana, em Kentucky, nos Estados Unidos, e o oficial de polícia Rick Grimes (Andrew Lincoln) descobre que <a href="#">Mais ...</a></p>
     </div>
     <div class="thumbnail"> <a href="Game-of-Thrones.php"><img src="images/Game-of-Thrones.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="Game-of-Thrones.php">GAME OF THRONES</a></h4>

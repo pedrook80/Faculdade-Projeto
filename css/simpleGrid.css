@@ -224,10 +224,7 @@ footer {
 	letter-spacing:25px;
 	padding-right: 50px;
 }
-.header {
-	padding-right:2px;
-	background-size: 320px;
-}
+
 .container {
 	width: 90%;
 	margin-left: auto;
@@ -292,10 +289,7 @@ footer {
 	letter-spacing: 50px;
 	padding-right:2px;
 }
-.header{
-	background-size: 550px;
-	padding-right:2px;
-}
+
 #menu {
 	display:none;
 }

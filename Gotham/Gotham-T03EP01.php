@@ -1,14 +1,14 @@
 ﻿<?php @session_start()?>
-<!doctype html>
+<?php @ session_start()?>
+<!DOCTYPE html >
 <html>
-<head>
+	<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="css/bootstrap(gotham) eps.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="images/vsicon.png">
-<title>Gotham T03EP01</title>
-</head>
+<title>Gotham T03EP01</title></head>
 <body>
 <!-- Main Container -->
 <div class="container"> 

@@ -1,13 +1,13 @@
-﻿<!doctype html>
+﻿<?php @ session_start()?>
+<!DOCTYPE html >
 <html>
-<head>
+	<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Categoria B</title>
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="images/vsicon.png">
-</head>
+<link rel="shortcut icon" href="images/vsicon.png"></head>
 <body>
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img src="images/logo2.png"/></div>
@@ -43,6 +43,12 @@
         <li id="menu-item-34"><a href="categoriaX.php">X</a></li>
         <li id="menu-item-35"><a href="categoriaY.php">Y</a></li>
         <li id="menu-item-36"><a href="categoriaZ.php">Z</a></li>
+        <?php
+            if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <li id='menu-item-38'><a href='login.php'>Login / Cadastro</a></li>
+        <?php }  else { ?>
+      <li id='menu-item-38'><a href='profile.php'>Perfil</a></li>
+      <?php  } ?>
       </ul>
     </nav></div>
     	<select id="select" class="container" onchange="window.location=this.value">
@@ -75,42 +81,48 @@
     		<option value="categoriaX.php">Categoria X</option>
     		<option value="categoriaY.php">Categoria Y</option>
     		<option value="categoriaZ.php">Categoria Z</option>
-    	</select>
+        <?php
+          if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <option value="login.php">Login / Cadastro</option>
+        <?php }  else { ?>
+      <option value="profile.php">Perfil</option>
+      <?php  } ?>
+      </select>
   <div class="gallery">
-    <div class="thumbnail" id="thumbnail10"><a href="Bates-Motel.php"><img src="images/bates-motel.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">BATES MOTEL</a></h4>
-      <p class="tag">Após a misteriosa morte de seu marido, Norma Bates decidiu começar uma nova vida longe do Arizona, na pequena cidade de White Pine Bay, em Oregon, e leva o filho<a href="Bates-Motel">Mais ...</a></p>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/bates-motel.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">BATES MOTEL</a></h4>
+      <p class="tag">Após a misteriosa morte de seu marido, Norma Bates decidiu começar uma nova vida longe do Arizona, na pequena cidade de White Pine Bay, em Oregon, e leva o filho<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/beauty_and_the_beast.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">BEAUTY AND THE BEAST</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/beauty_and_the_beast.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">BEAUTY AND THE BEAST</a></h4>
       <p class="tag">A Detetive Catherine Chandler (Kristin Kreuk) acaba de descobrir que tudo o que ela conhecia sobre sua vida é uma mentira. Determinada a descobrir a verdade<a href="#">Mais ...</a></p> 
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/Being-Human.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">BEING HUMAN</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/Being-Human.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">BEING HUMAN</a></h4>
       <p class="tag">Um vampiro, um lobisomem e uma fantasma, dividem o mesmo teto e lutam para manter seus lados obscuros em segredo, enquanto tentam viver uma vida<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/billions22.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">BILLIONS</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/billions22.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">BILLIONS</a></h4>
       <p class="tag">No mundo das altas finanças de Nova York, nos bastidores de Wall Street, o Procurador de Justiça Chuck Rhodes (Paul Giamatti) bate <a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/Bitten.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">BITTEN</a> </h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/Bitten.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">BITTEN</a> </h4>
       <p class="tag">As aventuras de Elena Michaels (Laura Vandervoort), uma bela loira de 28 anos de idade que é a única lobisomem do sexo feminino em todo o mundo. Órfã, ela<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href="Black-Sails"><img class="cards" src="images/black-sails.jpg" alt="Assista série online." width="2000"/></a>
-      <h4><a href="">BLACK SAILS</a></h4>
-      <p class="tag">Ambientada 20 anos antes dos eventos que se sucedem no livro “Ilha do Tesouro”, de Robert Louis Stevenson, acompanha as aventuras do Capitão Flint (Toby Stephens) e sua tripulação<a href="Black-Sails">Mais ...</a></p>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img class="cards" src="images/black-sails.jpg" alt="Assista série online." width="2000"/></a>
+      <h4><a href="#">BLACK SAILS</a></h4>
+      <p class="tag">Ambientada 20 anos antes dos eventos que se sucedem no livro “Ilha do Tesouro”, de Robert Louis Stevenson, acompanha as aventuras do Capitão Flint (Toby Stephens) e sua tripulação<a href="#">Mais ...</a></p>
       </div>
-      <div class="thumbnail" id="thumbnail10"><a href="Blindspot.php"><img src="images/Blindspot.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">BLINDSPOT</a></h4>
-      <p class="tag">Blindspot conta a história de um agente do FBI que, misteriosamente, se vê em meio a uma conspiração. A história começa quando Jane Doe (Jaimie Alexander)<a href="Blindspot">Mais ...</a></p>
+      <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/Blindspot.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">BLINDSPOT</a></h4>
+      <p class="tag">Blindspot conta a história de um agente do FBI que, misteriosamente, se vê em meio a uma conspiração. A história começa quando Jane Doe (Jaimie Alexander)<a href="#">Mais ...</a></p>
       </div>
-    <div class="thumbnail" id="thumbnail10"><a href="Blood-&-Oil.php"><img src="images/bloodoil.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">BLOOD & OIL</a></h4>
-      <p class="tag">A maior descoberta de petróleo da história americana acabou desencadeando uma mudança na geopolítica e na economia de Dakota do Norte, em uma escala <a href="Blood-&-Oil">Mais ...</a></p>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/bloodoil.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">BLOOD & OIL</a></h4>
+      <p class="tag">A maior descoberta de petróleo da história americana acabou desencadeando uma mudança na geopolítica e na economia de Dakota do Norte, em uma escala <a href="#">Mais ...</a></p>
       </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/Breaking-Bad.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">BREAKING BAD</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/Breaking-Bad.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">BREAKING BAD</a></h4>
       <p class="tag">Walter White é um professor de química na casa dos 50 anos que trabalha em uma escola secundária no Novo<a href="#">Mais ...</a></p>
     </div>
   </div>

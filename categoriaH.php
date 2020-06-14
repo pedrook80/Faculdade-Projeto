@@ -1,13 +1,13 @@
-﻿<!doctype html>
+﻿<?php @ session_start()?>
+<!DOCTYPE html >
 <html>
-<head>
+	<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Categoria H</title>
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="images/vsicon.png">
-</head>
+<link rel="shortcut icon" href="images/vsicon.png"></head>
 <body>
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img src="images/logo2.png"/></div>
@@ -47,6 +47,12 @@
         <li id="menu-item-34"><a href="categoriaX.php">X</a></li>
         <li id="menu-item-35"><a href="categoriaY.php">Y</a></li>
         <li id="menu-item-36"><a href="categoriaZ.php">Z</a></li>
+        <?php
+            if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <li id='menu-item-38'><a href='login.php'>Login / Cadastro</a></li>
+        <?php }  else { ?>
+      <li id='menu-item-38'><a href='profile.php'>Perfil</a></li>
+      <?php  } ?>
       </ul>
     </nav></div>
     	<select id="select" class="container" onchange="window.location=this.value">
@@ -79,36 +85,42 @@
     		<option value="categoriaX.php">Categoria X</option>
     		<option value="categoriaY.php">Categoria Y</option>
     		<option value="categoriaZ.php">Categoria Z</option>
-    	</select>
+        <?php
+          if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <option value="login.php">Login / Cadastro</option>
+        <?php }  else { ?>
+      <option value="profile.php">Perfil</option>
+      <?php  } ?>
+      </select>
   <div class="gallery">
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/hanniball.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">HANNIBAL</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/hanniball.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">HANNIBAL</a></h4>
       <p class="tag">Will Graham é um investigador do FBI que tem o talento de se inserir nas cenas dos crimes e visualizar exatamente o que aconteceu. Tal capacidade ajuda a solucionar<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"> <a href=""><img src="images/heroes.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">HEROES</a></h4>
+    <div class="thumbnail" id="thumbnail10"> <a href="#"><img src="images/heroes.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">HEROES</a></h4>
       <p class="tag">Eles achavam que eram como qualquer um… até descobrirem possuir habilidades extraordinárias, como telepatia, capacidade de voar, telecinese, controle do<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/Heroes-Reborn.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">HEROES REBORN</a> </h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/Heroes-Reborn.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">HEROES REBORN</a> </h4>
       <p class="tag">Minissérie de 13 episódios, é um arco independente originado a partir de Heroes (2006). A série original conta a história de um grupo de pessoas comuns, não-relacionadas<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/house.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">HOUSE</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/house.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">HOUSE</a></h4>
       <p class="tag">House (Hugh Laurie) é um médico brilhante, polêmico, irreverente e anti-social que não confia em ninguém, muito menos em seus pacientes. Ele trabalha com<a href="#">Mais ...</a></p>
     </div>
   </div>
   <div class="gallery">
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/house-cards.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">HOUSE OF CARDS</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/house-cards.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">HOUSE OF CARDS</a></h4>
       <p class="tag">Frank Underwood é um astuto congressista norte-americano que foi traído pelo presidente que ele ajudou a eleger. Com a ajuda da esposa, de uma jornalista<a href="#">Mais ...</a></p>  
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/how-i-met-your.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">HOW I MET YOUR MOTHER</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/how-i-met-your.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">HOW I MET YOUR MOTHER</a></h4>
       <p class="tag">Em 2030, o arquiteto Ted Mosby (Josh Radnor) conta a história sobre como conheceu a mãe dos seus filhos. Ele volta no tempo para 2005, relembrando suas aventuras<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/how-to-get-away-with-.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">HOW TO GET AWAY WITH MURDER</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/how-to-get-away-with-.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">HOW TO GET AWAY WITH MURDER</a></h4>
       <p class="tag">Michaela, Wes, Laurel e Patrick são ambiciosos calouros de Direito da prestigiada academia East Coast Law School, onde apenas os melhores alunos podem<a href="#">Mais ...</a></p>
     </div>
   </div>

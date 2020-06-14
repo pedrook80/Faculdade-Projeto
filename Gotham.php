@@ -1,14 +1,13 @@
 ﻿<?php @ session_start()?>
-<!doctype html>
+<!DOCTYPE html >
 <html>
-<head>
+	<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Gotham</title>
 <link href="css/bootstrap(gotham).css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="images/vsicon.png">
-</head>
+<link rel="shortcut icon" href="images/vsicon.png"></head>
 <body>	
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img alt="" src="images/logo2.png"/></div>
@@ -102,7 +101,7 @@
       <p class="text_column2">Atores: Ben McKenzie, Donal Logue, David Mazouz, mais ...</p>
       <p class="text_column2">Status: Em produção</p>
       <p class="text_column2">Duração: 42 minutos</p>
-		<a href="" download="2 Broke Girls">Baixar Todas as Temporadas</a></div>
+		<a href="#" download="2 Broke Girls">Baixar Todas as Temporadas</a></div>
 		<div class="ver"></div>
 		<h3 class="thumb22"><span>1ª Temporada <strong style="color:red">EM BREVE</strong></span>&nbsp&nbsp&nbsp<span><a href="magnet:?xt=urn:btih:FD4013A545409CD57E8AE2BC75BEEE52BBA13558&dn=Gotham%201%c2%aa%20Temporada%20%282014%29%20BRRip%20720p%20Dual%20Audio%20%2b%20Legendas%20%28ToTTi9%29%20ThePirateFilmes&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.ccc.de%3a80%2fannounce" download="Gotham"><img src="images/download.png" /></a></span></h3>
 			<!--<div id="epsetemps">

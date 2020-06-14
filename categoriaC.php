@@ -1,13 +1,13 @@
-﻿<!doctype html>
+﻿<?php @ session_start()?>
+<!DOCTYPE html >
 <html>
-<head>
+	<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Categoria C</title>
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="images/vsicon.png">
-</head>
+<link rel="shortcut icon" href="images/vsicon.png"></head>
 <body>
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img src="images/logo2.png"/></div>
@@ -43,6 +43,12 @@
         <li id="menu-item-34"><a href="categoriaX.php">X</a></li>
         <li id="menu-item-35"><a href="categoriaY.php">Y</a></li>
         <li id="menu-item-36"><a href="categoriaZ.php">Z</a></li>
+        <?php
+            if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <li id='menu-item-38'><a href='login.php'>Login / Cadastro</a></li>
+        <?php }  else { ?>
+      <li id='menu-item-38'><a href='profile.php'>Perfil</a></li>
+      <?php  } ?>
       </ul>
     </nav></div>
     	<select id="select" class="container" onchange="window.location=this.value">
@@ -75,27 +81,32 @@
     		<option value="categoriaX.php">Categoria X</option>
     		<option value="categoriaY.php">Categoria Y</option>
     		<option value="categoriaZ.php">Categoria Z</option>
-    	</select>
+        <?php
+          if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <option value="login.php">Login / Cadastro</option>
+        <?php }  else { ?>
+      <option value="profile.php">Perfil</option>
+      <?php  } ?>
+      </select>
   <div class="gallery">
-    <div class="gallery">
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/chicago-med.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">CHICAGO MED</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/chicago-med.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">CHICAGO MED</a></h4>
       <p class="tag">Acompanhe o caos do dia-a-dia do hospital mais explosivo da cidade de Chicago e da equipe de médicos corajosos que o mantém unido. A série aborda <a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/chuck.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">CHUCK</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/chuck.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">CHUCK</a></h4>
       <p class="tag">Chuck Bartowski (Zachary Levi) é um nerd “gênio da informática” que tem um emprego monótono na fictícia rede Buy More. Sua rotina vira de ponta à cabeça <a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/colony.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">COLONY</a> </h4>
-      <p class="tag">Para proteger sua família, um ex-agente do FBI aceita a chantagem de colaborar com o governo para derrubar um movimento de resistência crescente na Los Angeles de um futuro<a href="">Mais ...</a></p>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/colony.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">COLONY</a> </h4>
+      <p class="tag">Para proteger sua família, um ex-agente do FBI aceita a chantagem de colaborar com o governo para derrubar um movimento de resistência crescente na Los Angeles de um futuro<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/constantine.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">CONSTANTINE</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/constantine.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">CONSTANTINE</a></h4>
       <p class="tag">John Constantine (Matt Ryan) é um detetive com habilidades sobrenaturais. Perseguido por mistérios e segredos de seu próprio passado, a vida de John é mudada<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/containment.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">CONTAINMENT</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/containment.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">CONTAINMENT</a></h4>
       <p class="tag">Uma misteriosa e mortal epidemia atinge Atlanta, o que força o governo americano a colocar a cidade em quarentena. O policial de bom coração Alex Carnahan<a href="#">Mais ...</a></p> 
     </div>
     </div>

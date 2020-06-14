@@ -1,46 +1,13 @@
-﻿<!doctype html>
+﻿<?php @ session_start()?>
+<!DOCTYPE html >
 <html>
-<head>
-<!-- PopAds.net Popunder Code for viaserie.tk
-<script type="text/javascript" data-cfasync="false">
-  var _pop = _pop || [];
-  _pop.push(['siteId', 1377591]);
-  _pop.push(['minBid', 0.000000]);
-  _pop.push(['popundersPerIP', 0]);
-  _pop.push(['delayBetween', 0]);
-  _pop.push(['default', false]);
-  _pop.push(['defaultPerDay', 0]);
-  _pop.push(['topmostLayer', false]);
-  (function() {
-    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
-    var s = document.getElementsByTagName('script')[0]; 
-    pa.src = '//c1.popads.net/pop.js';
-    pa.onerror = function() {
-      var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
-      sa.src = '//c2.popads.net/pop.js';
-      s.parentNode.insertBefore(sa, s);
-    };
-    s.parentNode.insertBefore(pa, s);
-  })();
-</script>
-<!-- PopAds.net Popunder Code End -->
+	<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Categoria T</title>
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="images/vsicon.png">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-83545183-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-</head>
+<link rel="shortcut icon" href="images/vsicon.png"></head>
 <body>
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img src="images/logo2.png"/></div>
@@ -76,6 +43,12 @@
         <li id="menu-item-34"><a href="categoriaX.php">X</a></li>
         <li id="menu-item-35"><a href="categoriaY.php">Y</a></li>
         <li id="menu-item-36"><a href="categoriaZ.php">Z</a></li>
+        <?php
+            if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <li id='menu-item-38'><a href='login.php'>Login / Cadastro</a></li>
+        <?php }  else { ?>
+      <li id='menu-item-38'><a href='profile.php'>Perfil</a></li>
+      <?php  } ?>
       </ul>
     </nav></div>
     	<select id="select" class="container" onchange="window.location=this.value">
@@ -108,14 +81,20 @@
     		<option value="categoriaX.php">Categoria X</option>
     		<option value="categoriaY.php">Categoria Y</option>
     		<option value="categoriaZ.php">Categoria Z</option>
-    	</select>
+        <?php
+          if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <option value="login.php">Login / Cadastro</option>
+        <?php }  else { ?>
+      <option value="profile.php">Perfil</option>
+      <?php  } ?>
+      </select>
   <div class="gallery">
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/teen-wolf.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">TEEN WOLF</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/teen-wolf.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">TEEN WOLF</a></h4>
       <p class="tag">O jovem Scott McCall (Tyler Posey) é estudante do ensino médio no colégio fictício de Beacon Hills e vive como um garoto comum, passando por problemas naturais da<a href="#">Mais ...</a> </p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/terra-nova.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">TERRA NOVA</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/terra-nova.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">TERRA NOVA</a></h4>
       <p class="tag">No ano de 2149, o planeta Terra está praticamente inabitável pelo excesso de poluição da atmosfera. Para escapar dessa situação, o detetive de polícia Jim Shannon<a href="#">Mais ...</a></p>
     </div>
     
@@ -127,28 +106,28 @@
       <h4><a href="The-Big-Bang-Theory.php">THE BIG BANG THEORY</a></h4>
       <p class="tag">Leonard e Sheldon podem lhe dizer tudo o que você quiser saber sobre física quântica. Mas eles não seriam capazes de lhe dizer nada sobre a vida “real”, as relações<a href="The-Big-Bang-Theory">Mais ...</a></p>  
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/the-black-list.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">THE BLACKLIST</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/the-black-list.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">THE BLACKLIST</a></h4>
       <p class="tag">Raymond Reddington é um dos criminosos mais procurados pelo FBI. Até que um dia ele decide se entregar misteriosamente à agência, oferecendo com ele uma<a href="#">Mais ...</a></p> 
     </div>
     <div class="thumbnail"><a href="The-Flash.php"><img src="images/the flash.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="The-Flash.php">THE FLASH</a></h4>
       <p class="tag">Barry Allen (Grant Gustin) era um funcionário da Polícia Científica que, ao sofrer um acidente, foi banhado por produtos químicos em seu laboratório e, em seguida, atingido por um<a href="The-Flash">Mais ...</a></p> 
       </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/the-librarians.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">THE LIBRARIANS</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/the-librarians.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">THE LIBRARIANS</a></h4>
       <p class="tag">Uma antiga organização escondida por detrás da Biblioteca Pública Metropolitana, dedicada a proteger um mundo desconhecido da realidade mágica e secreta que esconde<a href="#">Mais ...</a></p>   
         </div>
         <div class="thumbnail"><a href="The-Originals.php"><img src="images/the-originals.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="The-Originals.php">THE ORIGINALS</a></h4>
       <p class="tag">Um spin-off de The Vampire Diaries, que se passa em New Orleans. A série é centrada nos irmãos Mikaelson, que são conhecidos como os vampiros originais do mundo<a href="The-Originals">Mais ...</a></p>
     </div>
-    	<div class="thumbnail" id="thumbnail10"><a href=""><img src="images/the-strain.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">THE STRAIN</a></h4>
+    	<div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/the-strain.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">THE STRAIN</a></h4>
       <p class="tag">Um boeing 777 chega no aeroporto JFK, em Nova York, e enquanto está a meio caminho de pousar, de repente para completamente. Todas as persianas são baixadas, e as luzes desligadas<a href="#">Mais ...</a></p>
     </div>
-      <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/the-vampire-diariess.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">THE VAMPIRE DIARIES</a></h4>
+      <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/the-vampire-diariess.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">THE VAMPIRE DIARIES</a></h4>
       <p class="tag">A cidade fictícia de Mystic Falls, na Virgina, é assombrada por criaturas sobrenaturais. Damon (Ian Somerhalder) e Stefan Salvatore (Paul Wesley) são irmãos que<a href="#">Mais ...</a></p>
       </div>
         <div class="thumbnail"><a href="The-Walking-Dead.php"><img src="images/the-walking-dead.jpg" alt="" width="2000" class="cards"/></a>
@@ -159,8 +138,8 @@
       <h4><a href="Touch.php">TOUCH</a></h4>
       <p class="tag">Martin Bohm (Kiefer Sutherland) é um ex-jornalista que, após o falecimento da esposa nas Torres Gêmeas em 11 de setembro, passa a exercer uma série de trabalhos diferentes tentando<a href="Touch">Mais ...</a></p>
         </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/true-blood.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">TRUE BLOOD</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/true-blood.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">TRUE BLOOD</a></h4>
       <p class="tag">Sookie Stackhouse (Anna Paquin) é uma garçonete de Louisiana que perdeu os pais ainda jovem e vive resolvendo as confusões do irmão, Jason (Ryan Kwanten)<a href="#">Mais ...</a></p>
     </div>
   </div>

@@ -1,13 +1,13 @@
-﻿<!doctype html>
+﻿<?php @ session_start()?>
+<!DOCTYPE html >
 <html>
-<head>
+	<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Categoria D</title>
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="images/vsicon.png">
-</head>
+<link rel="shortcut icon" href="images/vsicon.png"></head>
 <body>
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img src="images/logo2.png"/></div>
@@ -43,6 +43,12 @@
         <li id="menu-item-34"><a href="categoriaX.php">X</a></li>
         <li id="menu-item-35"><a href="categoriaY.php">Y</a></li>
         <li id="menu-item-36"><a href="categoriaZ.php">Z</a></li>
+        <?php
+            if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <li id='menu-item-38'><a href='login.php'>Login / Cadastro</a></li>
+        <?php }  else { ?>
+      <li id='menu-item-38'><a href='profile.php'>Perfil</a></li>
+      <?php  } ?>
       </ul>
     </nav></div>
     	<select id="select" class="container" onchange="window.location=this.value">
@@ -75,36 +81,41 @@
     		<option value="categoriaX.php">Categoria X</option>
     		<option value="categoriaY.php">Categoria Y</option>
     		<option value="categoriaZ.php">Categoria Z</option>
-    	</select>
+        <?php
+          if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <option value="login.php">Login / Cadastro</option>
+        <?php }  else { ?>
+      <option value="profile.php">Perfil</option>
+      <?php  } ?>
+      </select>
   <div class="gallery">
-    <div class="gallery">
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/damien.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">DAMIEN</a></h4>
-      <p class="tag">Baseado no filme A Profecia, de 1976. A série conta a história de Damien Thorn (Bradley James), um jovem perseguido pelo seu passado que precisa enfrentar uma verdade<a href="">Mais ...</a></p>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/damien.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">DAMIEN</a></h4>
+      <p class="tag">Baseado no filme A Profecia, de 1976. A série conta a história de Damien Thorn (Bradley James), um jovem perseguido pelo seu passado que precisa enfrentar uma verdade<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href="Dcs-Legends-Of-Tomorrow.php"><img src="images/DCs-Legends-Of-Tomorrow.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">DC'S LEGENDS OF TOMORROW</a></h4>
-      <p class="tag">Quando heróis sozinhos não são o suficiente… o mundo precisa de lendas. Rip Hunter (Arthur Darvill) viaja no tempo para reunir um improvável time de heróis e vilões para<a href="DCs-Legends-Of-Tomorrow">Mais ...</a></p>
+    <div class="thumbnail"><a href="Dcs-Legends-Of-Tomorrow.php"><img src="images/DCs-Legends-Of-Tomorrow.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="Dcs-Legends-Of-Tomorrow.php">DC'S LEGENDS OF TOMORROW</a></h4>
+      <p class="tag">Quando heróis sozinhos não são o suficiente… o mundo precisa de lendas. Rip Hunter (Arthur Darvill) viaja no tempo para reunir um improvável time de heróis e vilões para<a href="Dcs-Legends-Of-Tomorrow.php">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/demolidor.jpg" alt="" width="2000" class="cards"/></a>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/demolidor.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="D">DEMOLIDOR</a></h4>
-      <p class="tag">Matthew Michael Murdock (Charlie Cox) é um jovem atleta e excelente aluno. Ainda na adolescência, um acidente envolvendo um caminhão que carregava lixos tóxicos<a href="">Mais ...</a></p>
+      <p class="tag">Matthew Michael Murdock (Charlie Cox) é um jovem atleta e excelente aluno. Ainda na adolescência, um acidente envolvendo um caminhão que carregava lixos tóxicos<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/devious-maids.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">DEVIOUS MAIDS</a> </h4>
-      <p class="tag">Elas lavam as roupas que não podem comprar, dão polimento à prataria que nunca usarão e, algumas vezes, vão para a cama com os maridos de suas chefes. Tudo<a href="">Mais ...</a></p>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/devious-maids.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">DEVIOUS MAIDS</a> </h4>
+      <p class="tag">Elas lavam as roupas que não podem comprar, dão polimento à prataria que nunca usarão e, algumas vezes, vão para a cama com os maridos de suas chefes. Tudo<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/dexter.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">DEXTER</a></h4>
-      <p class="tag">Dexter Morgan (Michael C. Hall) é adotado aos três anos de idade por Harry Morgan (James Remar) e Doris (Kathrin Middleton), depois de ter se tornado órfão. Após<a href="">Mais ...</a></p>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/dexter.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">DEXTER</a></h4>
+      <p class="tag">Dexter Morgan (Michael C. Hall) é adotado aos três anos de idade por Harry Morgan (James Remar) e Doris (Kathrin Middleton), depois de ter se tornado órfão. Após<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/dominion.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">DOMINION</a></h4>
-      <p class="tag">Deus desapareceu e, em sua ausência, o arcanjo Gabriel declarou guerra à criação. Em meio ao conflito entre anjos e homens, um jovem soldado rebelde<a href="">Mais ...</a></p> 
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/dominion.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">DOMINION</a></h4>
+      <p class="tag">Deus desapareceu e, em sua ausência, o arcanjo Gabriel declarou guerra à criação. Em meio ao conflito entre anjos e homens, um jovem soldado rebelde<a href="#">Mais ...</a></p> 
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/dracula.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">DRACULA</a></h4>
-      <p class="tag">A série apresenta a chegada de Dracula (Jonathan Rhys Meyers) em Londres, passando-se por um empresário norte-americano que deseja levar a modernidade científica<a href="">Mais ...</a></p></div>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/dracula.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">DRACULA</a></h4>
+      <p class="tag">A série apresenta a chegada de Dracula (Jonathan Rhys Meyers) em Londres, passando-se por um empresário norte-americano que deseja levar a modernidade científica<a href="#">Mais ...</a></p></div>
     </div>
     </div>
   <!-- Footer Section -->

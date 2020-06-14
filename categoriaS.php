@@ -1,46 +1,13 @@
-﻿<!doctype html>
+﻿<?php @ session_start()?>
+<!DOCTYPE html >
 <html>
-<head>
-<!-- PopAds.net Popunder Code for viaserie.tk
-<script type="text/javascript" data-cfasync="false">
-  var _pop = _pop || [];
-  _pop.push(['siteId', 1377591]);
-  _pop.push(['minBid', 0.000000]);
-  _pop.push(['popundersPerIP', 0]);
-  _pop.push(['delayBetween', 0]);
-  _pop.push(['default', false]);
-  _pop.push(['defaultPerDay', 0]);
-  _pop.push(['topmostLayer', false]);
-  (function() {
-    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
-    var s = document.getElementsByTagName('script')[0]; 
-    pa.src = '//c1.popads.net/pop.js';
-    pa.onerror = function() {
-      var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
-      sa.src = '//c2.popads.net/pop.js';
-      s.parentNode.insertBefore(sa, s);
-    };
-    s.parentNode.insertBefore(pa, s);
-  })();
-</script>
-<!-- PopAds.net Popunder Code End -->
+	<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Categoria S</title>
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="images/vsicon.png">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-83545183-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-</head>
+<link rel="shortcut icon" href="images/vsicon.png"></head>
 <body>
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img src="images/logo2.png"/></div>
@@ -76,6 +43,12 @@
         <li id="menu-item-34"><a href="categoriaX.php">X</a></li>
         <li id="menu-item-35"><a href="categoriaY.php">Y</a></li>
         <li id="menu-item-36"><a href="categoriaZ.php">Z</a></li>
+        <?php
+            if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <li id='menu-item-38'><a href='login.php'>Login / Cadastro</a></li>
+        <?php }  else { ?>
+      <li id='menu-item-38'><a href='profile.php'>Perfil</a></li>
+      <?php  } ?>
       </ul>
     </nav></div>
     	<select id="select" class="container" onchange="window.location=this.value">
@@ -108,22 +81,28 @@
     		<option value="categoriaX.php">Categoria X</option>
     		<option value="categoriaY.php">Categoria Y</option>
     		<option value="categoriaZ.php">Categoria Z</option>
-    	</select>
+        <?php
+          if ((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)) { ?>
+         <option value="login.php">Login / Cadastro</option>
+        <?php }  else { ?>
+      <option value="profile.php">Perfil</option>
+      <?php  } ?>
+      </select>
   <div class="gallery">
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/scream.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">SCREAM</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/scream.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">SCREAM</a></h4>
       <p class="tag">Depois de um incidente de cyber-bullying resultar em um assassinato brutal, a violência reacende a memória de uma série de assassinatos que ocorreram no passado<a href="#">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/scream-queens.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">SCREAM QUEENS</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/scream-queens.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">SCREAM QUEENS</a></h4>
       <p class="tag">Antologia de comédia e terror que se inicia em uma faculdade dos Estados Unidos, onde uma série de assassinatos começa a acontecer de forma misteriosa<a href="Scream-Queens">Mais ...</a></p>
     </div>
     <div class="thumbnail"><a href="Selfie.php"><img src="images/selfie.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="Selfie.php">SELFIE</a> </h4>
       <p class="tag">Selfie conta a história da jovem Eliza Dooley (Karen Gillan) que é viciada nos seus perfis nas redes sociais e vive mais preocupada com seus "likes" no mundo virtual do<a href="Selfie">Mais ...</a></p>
     </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/Sense8.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">SENSE8</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/Sense8.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">SENSE8</a></h4>
       <p class="tag">Grupos de pessoas ao redor do mundo estão ligadas mentalmente, e precisam achar uma maneira de sobreviver sendo caçados por aqueles que os veem como uma<a href="#">Mais ...</a></p> 
     </div>
     <div class="thumbnail"><a href="Shadowhunters.php"><img src="images/shadowhunters.jpg" alt="" width="2000" class="cards"/></a>
@@ -134,8 +113,8 @@
       <h4><a href="Stranger-Things.php">STRANGER THINGS</a></h4>
       <p class="tag">Ambientada em Montauk, Long Island, conta a história de um garoto que desaparece misteriosamente. Enquanto a polícia, a família e os amigos procuram respostas, eles acabam<a href="Stranger-Things">Mais ...</a></p>
       </div>
-    <div class="thumbnail" id="thumbnail10"><a href=""><img src="images/stalker.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="">STALKER</a></h4>
+    <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/stalker.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">STALKER</a></h4>
       <p class="tag">Uma dupla de detetives precisa lidar com incidentes envolvendo perseguidores para a Unidade de Gerenciamento de Ameaças da Polícia de Los Angeles<a href="#">Mais ...</a></p>
     </div>
     <div class="thumbnail"><a href="Supergirl.php"><img src="images/supergirl.jpg" alt="" width="2000" class="cards"/></a>

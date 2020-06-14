@@ -1,13 +1,13 @@
 <?php @ session_start()?>
 <!DOCTYPE html >
-<html><head>
+<html>
+	<head>
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="images/vsicon.png">
-<title>VIA SÉRIE</title>
-</head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
+		<link rel="shortcut icon" href="images/vsicon.png">
+		<title>VIA SÉRIE</title></head>
 <body>
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img alt="" src="images/logo2.png"/></div>
@@ -89,13 +89,13 @@
       <?php  } ?>
       </select>
   <div class="gallery">
-    <div class="thumbnail"><div class="series"><a href="DCs-Legends-Of-Tomorrow.php"><img src="images/DCs-Legends-Of-Tomorrow.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="DCs-Legends-Of-Tomorrow.php">DC'S LEGENDS OF TOMORROW</a></h4>
+    <div class="thumbnail"><div class="series"><a href="Dcs-Legends-Of-Tomorrow.php"><img src="images/DCs-Legends-Of-Tomorrow.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="Dcs-Legends-Of-Tomorrow.php">DC'S LEGENDS OF TOMORROW</a></h4>
       <p class="tag"> Quando heróis sozinhos não são o suficiente… o mundo precisa de lendas. Rip Hunter (Arthur Darvill) viaja no tempo para reunir um improvável time de heróis e vilões para<a href="DCs-Legends-Of-Tomorrow">Mais ...</a></p>  </div>
     </div>
-    <div class="thumbnail"><div class="series"><a href="American-Horror-Story.php"><img src="images/american-horror-story.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="American-Horror-Story.php">AMERICAN HORROR STORY</a></h4>
-      <p class="tag">&emsp;American Horror Story é uma série de terror e suspense, que, a cada temporada, conta uma nova história centrada em um tema e <a href="American-Horror-Story.php">Mais ...</a></p>  </div>
+    <div class="thumbnail"><div class="series"><a href="#"><img src="images/american-horror-story.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="#">AMERICAN HORROR STORY</a></h4>
+      <p class="tag">&emsp;American Horror Story é uma série de terror e suspense, que, a cada temporada, conta uma nova história centrada em um tema e <a href="#">Mais ...</a></p>  </div>
     </div>
     <div class="thumbnail"><div class="series"><a href="The-Flash.php"><img src="images/the flash.jpg" alt="The Flash" width="2000" class="cards"/></a>
       <h4><a href="The-Flash.php">THE FLASH</a> </h4>
