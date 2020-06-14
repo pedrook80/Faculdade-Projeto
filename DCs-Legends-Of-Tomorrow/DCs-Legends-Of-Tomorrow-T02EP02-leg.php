@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="../css/bootstrap(legends) eps.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="images/vsicon.png">
+<link rel="shortcut icon" href="../images/vsicon.png">
 <title>DC's Legends Of Tomorrow T02EP02 <span style="color:red"> LEGENDADO</span></title></head>
 <body>
 <!-- Main Container -->

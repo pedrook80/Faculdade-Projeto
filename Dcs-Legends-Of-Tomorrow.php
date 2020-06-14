@@ -104,22 +104,22 @@
 		<h3 class="thumb22"><span>1ª Temporada</span></h3>
 			<div id="epsetemps">
         		<ul class="temps" id="temp1">
-            <li><a href="#" title=".php" class="text">Legends Of Tomorrow T01EP01</a></li>
-            <li><a href="#" title=".php" class="text">Legends Of Tomorrow T01EP02</a></li>
-            <li><a href="#" title=".php" class="text">Legends Of Tomorrow T01EP03</a></li>
-            <li><a href="#" title=".php" class="text">Legends Of Tomorrow T01EP04</a></li>
-            <li><a href="#" title=".php" class="text">Legends Of Tomorrow T01EP05</a></li>
-            <li><a href="#" title=".php" class="text">Legends Of Tomorrow T01EP06</a></li>
-            <li><a href="#" title=".php" class="text">Legends Of Tomorrow T01EP07</a></li>
-            <li><a href="#" title=".php" class="text">Legends Of Tomorrow T01EP08</a></li>
-            <li><a href="#" title=".php" class="text">Legends Of Tomorrow T01EP09</a></li>
-            <li><a href="#" title=".php" class="text">Legends Of Tomorrow T01EP10</a></li>
-            <li><a href="#" title=".php" class="text">Legends Of Tomorrow T01EP11</a></li>
-            <li><a href="#" title=".php" class="text">Legends Of Tomorrow T01EP12</a></li>
-            <li><a href="#" title=".php" class="text">Legends Of Tomorrow T01EP13</a></li>
-            <li><a href="#" title=".php" class="text">Legends Of Tomorrow T01EP14</a></li>
-            <li><a href="#" title=".php" class="text">Legends Of Tomorrow T01EP15</a></li>
-            <li><a href="#" title=".php" class="text">Legends Of Tomorrow T01EP16</a></li>
+            <li><a href="DCs-Legends-Of-Tomorrow/DCs-Legends-Of-Tomorrow-T01EP01.php" title=".php" class="text">Legends Of Tomorrow T01EP01</a></li>
+            <li><a href="DCs-Legends-Of-Tomorrow/DCs-Legends-Of-Tomorrow-T01EP02.php" title=".php" class="text">Legends Of Tomorrow T01EP02</a></li>
+            <li><a href="DCs-Legends-Of-Tomorrow/DCs-Legends-Of-Tomorrow-T01EP03.php" title=".php" class="text">Legends Of Tomorrow T01EP03</a></li>
+            <li><a href="DCs-Legends-Of-Tomorrow/DCs-Legends-Of-Tomorrow-T01EP04.php" title=".php" class="text">Legends Of Tomorrow T01EP04</a></li>
+            <li><a href="DCs-Legends-Of-Tomorrow/DCs-Legends-Of-Tomorrow-T01EP05.php" title=".php" class="text">Legends Of Tomorrow T01EP05</a></li>
+            <li><a href="DCs-Legends-Of-Tomorrow/DCs-Legends-Of-Tomorrow-T01EP06.php" title=".php" class="text">Legends Of Tomorrow T01EP06</a></li>
+            <li><a href="DCs-Legends-Of-Tomorrow/DCs-Legends-Of-Tomorrow-T01EP07.php" title=".php" class="text">Legends Of Tomorrow T01EP07</a></li>
+            <li><a href="DCs-Legends-Of-Tomorrow/DCs-Legends-Of-Tomorrow-T01EP08.php" title=".php" class="text">Legends Of Tomorrow T01EP08</a></li>
+            <li><a href="DCs-Legends-Of-Tomorrow/DCs-Legends-Of-Tomorrow-T01EP09.php" title=".php" class="text">Legends Of Tomorrow T01EP09</a></li>
+            <li><a href="DCs-Legends-Of-Tomorrow/DCs-Legends-Of-Tomorrow-T01EP10.php" title=".php" class="text">Legends Of Tomorrow T01EP10</a></li>
+            <li><a href="DCs-Legends-Of-Tomorrow/DCs-Legends-Of-Tomorrow-T01EP11.php" title=".php" class="text">Legends Of Tomorrow T01EP11</a></li>
+            <li><a href="DCs-Legends-Of-Tomorrow/DCs-Legends-Of-Tomorrow-T01EP12.php" title=".php" class="text">Legends Of Tomorrow T01EP12</a></li>
+            <li><a href="DCs-Legends-Of-Tomorrow/DCs-Legends-Of-Tomorrow-T01EP13.php" title=".php" class="text">Legends Of Tomorrow T01EP13</a></li>
+            <li><a href="DCs-Legends-Of-Tomorrow/DCs-Legends-Of-Tomorrow-T01EP14.php" title=".php" class="text">Legends Of Tomorrow T01EP14</a></li>
+            <li><a href="DCs-Legends-Of-Tomorrow/DCs-Legends-Of-Tomorrow-T01EP15.php" title=".php" class="text">Legends Of Tomorrow T01EP15</a></li>
+            <li><a href="DCs-Legends-Of-Tomorrow/DCs-Legends-Of-Tomorrow-T01EP16.php" title=".php" class="text">Legends Of Tomorrow T01EP16</a></li>
           </ul></div></div>
   </div>
   <!-- Footer Section -->

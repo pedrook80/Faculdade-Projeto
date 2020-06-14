@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="../css/bootstrap(legends) eps.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="images/vsicon.png">
+<link rel="shortcut icon" href="../images/vsicon.png">
 <title>DC's Legends Of Tomorrow T01EP07</title></head>
 <body>
 <!-- Main Container -->
@@ -93,7 +93,7 @@
       </select>
   <div class="gallery">
   		<div class="thumbnail">
-       	<iframe src="https://ok.ru/videoembed/43503782535" width="500" class="cards" allowfullscreen></iframe>
+			<video autoplay controls  width="500" class="cards" src="https://prisma1.azureedge.net/d/RCServer10/ondemand/LGNDSODTMRWT01EP07.mp4" type="video/mp4"></video>
         <h4>DC's Legends Of Tomorrow T01EP07</h4>
         </div></div>
         <!-- Footer Section -->
