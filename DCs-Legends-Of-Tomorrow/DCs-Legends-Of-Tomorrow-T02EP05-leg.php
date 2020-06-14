@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="../css/bootstrap(legends) eps.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="../images/vsicon.png">
-<title>DC's Legends Of Tomorrow T02EP05 <span style="color:red"> LEGENDADO</span></title></head>
+<title>DC's Legends Of Tomorrow T02EP05 <span style="color:#FF0000"> LEGENDADO</span></title></head>
 <body>
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img alt="" src="../images/logo2.png"/></div>
@@ -94,7 +94,7 @@
   <div class="gallery">
   		<div class="thumbnail">
        	<iframe src="https://ok.ru/videoembed/191973886599?rel=0&autoplay=1" frameborder="0" width="500" class="cards" allowfullscreen></iframe>
-        <h4>DC's Legends Of Tomorrow T02EP05 <strong style="color:red">Legendado</strong></h4>
+        <h4>DC's Legends Of Tomorrow T02EP05 <strong style="color:#FF0000">Legendado</strong></h4>
         </div></div>
         <!-- Footer Section -->
   <footer id="contact">

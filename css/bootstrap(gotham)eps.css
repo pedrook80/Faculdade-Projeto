@@ -69,36 +69,6 @@ body {
 	color: #12E19D;
 	font-weight: bold;
 }
-/*aki*/
-.options {
-	padding-top: 20px;
-	padding-right: 2px;
-	padding-left: 130px;
-	max-width:500px;
-}
-#options1 li{
-	margin-left:5px;
-}
-.options ul {
-	list-style-type: none;
-}
-.options li {
-	width:26%;
-	float:left;
-	background-color: #185A97;
-	border-radius:5px;
-	border-color:#116E61;
-	border: solid none 25px;
-	border-width:520px;
-	font-size:30px;
-}
-.options li a {
-	color: #000000;
-	text-decoration:none;
-}
-.options li:hover {
-	background-color: #C7CD64;
-}
 .hero_header {
 	color: #FFFFFF;
 	text-align: center;

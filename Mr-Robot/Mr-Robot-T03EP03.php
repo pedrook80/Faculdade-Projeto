@@ -5,11 +5,11 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="css/bootstrap(the100) eps.css" rel="stylesheet" type="text/css">
-<title>The 100 T03EP03</title></head>
+<link href="../css/bootstrap(mr-robot) eps.css" rel="stylesheet" type="text/css">
+<title>Mr. Robot T03EP03</title></head>
 <body>
 <!-- Main Container -->
-<div class="corp"><div align="center" class="center"><img alt="" src="images/logo2.png"/></div>
+<div class="corp"><div align="center" class="center"><img alt="" src="../images/logo2.png"/></div>
  <div class="container">
   <!-- Header -->
   <header class="header">
@@ -17,7 +17,7 @@
     <div class=" menu-item-43">
     <nav id="menu" class="container">
       <ul id="menu-top-menu" class="sf-menu">
-        <li id="menu-item-09"><a href="index.php">Início</a></li>
+        <li id="menu-item-09"><a href="../index.php">Início</a></li>
         <li id="menu-item-10"><a href="categoria123.php">#</a></li>
         <li id="menu-item-11"><a href="categoriaA.php">A</a></li>
         <li id="menu-item-12"><a href="categoriaB.php">B</a></li>
@@ -92,19 +92,17 @@
       </select>
   <div class="gallery">
   		<div class="thumbnail">
-       	<video width="500" controls autoplay class="cards">
-<source src="https://goo.gl/rpJxYu" type="video/mp4">
-</source>
-</video>
-        <h4>The 100 T03EP03</h4>
+       	<video width="500" autoplay controls class="cards" src="https://prisma1.azureedge.net/d/RCServer13/ondemand/MROBS03EP03.mp4" type="video/mp4">
+	</video>
+        <h4>Mr. Robot T03EP03 <strong style="color:#FF0000">Legendado</strong></h4>
         </div></div>
         <!-- Footer Section -->
   <footer id="contact">
     <p class="hero_header">SENTIU FALTA DE ALGUMA SÉRIE </p>
-    <div class="button"><a style="text-decoration:none; color:#FFFFFF" href="contato.php">CONTATE-NOS</a></div>
+    <div class="button"><a style="text-decoration:none; color:#FFFFFF" href="../contato.php">CONTATE-NOS</a></div>
   </footer>
   <!-- Copyrights Section -->
-  <div class="copyright">&copy;2018 -<a style="text-decoration:none" href="index.php"><strong style="color:#12E19D">VIA SÉRIE </strong></a></div>
+  <div class="copyright">&copy;2020 -<a style="text-decoration:none" href="../index.php"><strong style="color:#12E19D">VIA SÉRIE </strong></a></div>
   </div>
 </body>
 </html>

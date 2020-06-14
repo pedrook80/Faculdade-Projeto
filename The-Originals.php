@@ -195,19 +195,19 @@
             <div>
             <ul>
 			<p><a class="text2"></a></p>
-            <li><a href="The-Originals-T04EP01-leg.php" class="text">The Originals T04EP01 <span style="color:red">/</span> LEGENDADO</a></li>
-            <li><a href="The-Originals-T04EP02-leg.php" class="text">The Originals T04EP02 <span style="color:red">/</span> LEGENDADO</a></li>
-            <li><a href="The-Originals-T04EP03-leg.php" class="text">The Originals T04EP03 <span style="color:red">/</span> LEGENDADO</a></li>
-            <li><a href="The-Originals-T04EP04-leg.php" class="text">The Originals T04EP04 <span style="color:red">/</span> LEGENDADO</a></li>
-            <li><a href="The-Originals-T04EP05-leg.php" class="text">The Originals T04EP05 <span style="color:red">/</span> LEGENDADO</a></li>
-            <li><a href="The-Originals-T04EP06-leg.php" class="text">The Originals T04EP06 <span style="color:red">/</span> LEGENDADO</a></li>
-            <li><a href="The-Originals-T04EP07-leg.php" class="text">The Originals T04EP07 <span style="color:red">/</span> LEGENDADO</a></li>
-            <li><a href="The-Originals-T04EP08-leg.php" class="text">The Originals T04EP08 <span style="color:red">/</span> LEGENDADO</a></li>
-            <li><a href="The-Originals-T04EP09-leg.php" class="text">The Originals T04EP09 <span style="color:red">/</span> LEGENDADO</a></li>
-            <li><a href="The-Originals-T04EP10-leg.php" class="text">The Originals T04EP10 <span style="color:red">/</span> LEGENDADO</a></li>
-            <li><a href="The-Originals-T04EP11-leg.php" class="text">The Originals T04EP11 <span style="color:red">/</span> LEGENDADO</a></li>
-            <li><a href="The-Originals-T04EP12-leg.php" class="text">The Originals T04EP12 <span style="color:red">/</span> LEGENDADO</a></li>
-            <li><a href="The-Originals-T04EP13-leg.php" class="text">The Originals T04EP13 <span style="color:red">/</span> LEGENDADO <img src="images/new.png" alt="Novo episodio '4ª Temporada  episodio 13 legendado" width="29px"/></a></li></ul></div></div>
+            <li><a href="The-Originals-T04EP01-leg.php" class="text">The Originals T04EP01 <span style="color:#FF0000">/</span> LEGENDADO</a></li>
+            <li><a href="The-Originals-T04EP02-leg.php" class="text">The Originals T04EP02 <span style="color:#FF0000">/</span> LEGENDADO</a></li>
+            <li><a href="The-Originals-T04EP03-leg.php" class="text">The Originals T04EP03 <span style="color:#FF0000">/</span> LEGENDADO</a></li>
+            <li><a href="The-Originals-T04EP04-leg.php" class="text">The Originals T04EP04 <span style="color:#FF0000">/</span> LEGENDADO</a></li>
+            <li><a href="The-Originals-T04EP05-leg.php" class="text">The Originals T04EP05 <span style="color:#FF0000">/</span> LEGENDADO</a></li>
+            <li><a href="The-Originals-T04EP06-leg.php" class="text">The Originals T04EP06 <span style="color:#FF0000">/</span> LEGENDADO</a></li>
+            <li><a href="The-Originals-T04EP07-leg.php" class="text">The Originals T04EP07 <span style="color:#FF0000">/</span> LEGENDADO</a></li>
+            <li><a href="The-Originals-T04EP08-leg.php" class="text">The Originals T04EP08 <span style="color:#FF0000">/</span> LEGENDADO</a></li>
+            <li><a href="The-Originals-T04EP09-leg.php" class="text">The Originals T04EP09 <span style="color:#FF0000">/</span> LEGENDADO</a></li>
+            <li><a href="The-Originals-T04EP10-leg.php" class="text">The Originals T04EP10 <span style="color:#FF0000">/</span> LEGENDADO</a></li>
+            <li><a href="The-Originals-T04EP11-leg.php" class="text">The Originals T04EP11 <span style="color:#FF0000">/</span> LEGENDADO</a></li>
+            <li><a href="The-Originals-T04EP12-leg.php" class="text">The Originals T04EP12 <span style="color:#FF0000">/</span> LEGENDADO</a></li>
+            <li><a href="The-Originals-T04EP13-leg.php" class="text">The Originals T04EP13 <span style="color:#FF0000">/</span> LEGENDADO <img src="images/new.png" alt="Novo episodio '4ª Temporada  episodio 13 legendado" width="29px"/></a></li></ul></div></div>
   </div>
   <!-- Footer Section -->
   <footer id="contact">

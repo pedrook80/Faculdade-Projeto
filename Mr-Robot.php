@@ -12,9 +12,6 @@
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img alt="" src="images/logo2.png"/></div>
  <div class="container">
-  <!-- Header -->
-  <header class="header">
-  </header>
 <div class=" menu-item-43">
     <nav id="menu" class="container">
       <ul id="menu-top-menu" class="sf-menu">
@@ -92,7 +89,7 @@
       <?php  } ?>
       </select>
   <div class="gallery">
-<div class="thumbnail"> <a href="Mr-Robot.php"><img src="images/MrRobot.jpg" alt="" width="2000" class="cards"/></a>
+<div class="thumbnail"> <a href="Mr-Robot.php"><img src="images/mr-robot-cards.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="Mr-Robot.php">MR. ROBOT</a> </h4>
       <p class="tag">Elliot (Rami Malek) é um jovem programador que trabalha como engenheiro de segurança virtual durante o dia, e como hacker vigilante durante a noite. Elliot se vê numa encruzilhada quando o líder (Christian Slater) de um misterioso grupo de hacker o recruta para destruir a firma que ele é pago para proteger. Motivado pelas suas crenças pessoais, ele luta para resistir à chance de destruir os CEOs da multinacional que ele acredita estarem controlando – e destruindo – o mundo.
 	    <p>Criado por: Sam Esmail (2015)</p>
@@ -105,31 +102,45 @@
 		<h3 class="thumb22"><span>1ª Temporada</span></h3>
 			<div id="epsetemps">
         		<ul class="temps" id="temp1">
-            <li><a href="Mr-Robot-T01EP01.php" class="text">MR. ROBOT T01EP01</a></li>
-            <li><a href="Mr-Robot-T01EP02.php" class="text">MR. ROBOT T01EP02</a></li>
-            <li><a href="Mr-Robot-T01EP03.php" class="text">MR. ROBOT T01EP03</a></li>
-            <li><a href="Mr-Robot-T01EP04.php" class="text">MR. ROBOT T01EP04</a></li>
-            <li><a href="Mr-Robot-T01EP05.php" class="text">MR. ROBOT T01EP05</a></li>
-            <li><a href="Mr-Robot-T01EP06.php" class="text">MR. ROBOT T01EP06</a></li>
-            <li><a href="Mr-Robot-T01EP07.php" class="text">MR. ROBOT T01EP07</a></li>
-            <li><a href="Mr-Robot-T01EP08.php" class="text">MR. ROBOT T01EP08</a></li>
-            <li><a href="Mr-Robot-T01EP09.php" class="text">MR. ROBOT T01EP09</a></li>
-            <li><a href="Mr-Robot-T01EP10.php" class="text">MR. ROBOT T01EP10</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T01EP01.php" class="text">MR. ROBOT T01EP01</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T01EP02.php" class="text">MR. ROBOT T01EP02</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T01EP03.php" class="text">MR. ROBOT T01EP03</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T01EP04.php" class="text">MR. ROBOT T01EP04</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T01EP05.php" class="text">MR. ROBOT T01EP05</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T01EP06.php" class="text">MR. ROBOT T01EP06</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T01EP07.php" class="text">MR. ROBOT T01EP07</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T01EP08.php" class="text">MR. ROBOT T01EP08</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T01EP09.php" class="text">MR. ROBOT T01EP09</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T01EP10.php" class="text">MR. ROBOT T01EP10</a></li>
             </ul></div>
 		<h3 class="heading"><span>2ª Temporada</span></h3>
 			<div id="temp2">
 			<ul id="lista_eps2">
-            <li><a href="Mr-Robot-T02EP01.php" class="text">MR. ROBOT T02EP01</a></li>
-            <li><a href="Mr-Robot-T02EP02.php" class="text">MR. ROBOT T02EP02</a></li>
-            <li><a href="Mr-Robot-T02EP03.php" class="text">MR. ROBOT T02EP03</a></li>
-            <li><a href="Mr-Robot-T02EP04.php" class="text">MR. ROBOT T02EP04</a></li>
-            <li><a href="Mr-Robot-T02EP05.php" class="text">MR. ROBOT T02EP05</a></li>
-            <li><a href="Mr-Robot-T02EP06.php" class="text">MR. ROBOT T02EP06</a></li>
-            <li><a href="Mr-Robot-T02EP07.php" class="text">MR. ROBOT T02EP07</a></li>
-            <li><a href="Mr-Robot-T02EP08.php" class="text">MR. ROBOT T02EP08</a></li>
-            <li><a href="Mr-Robot-T02EP09.php" class="text">MR. ROBOT T02EP09</a></li>
-            <li><a href="Mr-Robot-T02EP10.php" class="text">MR. ROBOT T02EP10</a></li>
-            <li><a href="Mr-Robot-T02EP11.php" class="text">MR. ROBOT T02EP11</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T02EP01.php" class="text">MR. ROBOT T02EP01</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T02EP02.php" class="text">MR. ROBOT T02EP02</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T02EP03.php" class="text">MR. ROBOT T02EP03</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T02EP04.php" class="text">MR. ROBOT T02EP04</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T02EP05.php" class="text">MR. ROBOT T02EP05</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T02EP06.php" class="text">MR. ROBOT T02EP06</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T02EP07.php" class="text">MR. ROBOT T02EP07</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T02EP08.php" class="text">MR. ROBOT T02EP08</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T02EP09.php" class="text">MR. ROBOT T02EP09</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T02EP10.php" class="text">MR. ROBOT T02EP10</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T02EP11.php" class="text">MR. ROBOT T02EP11</a></li>
+                </ul></div>
+	 	<h3 class="heading"><span>3ª Temporada</span></h3>
+			<div id="temp3">
+			<ul id="lista_eps3">
+            <li><a href="Mr-Robot/Mr-Robot-T03EP01.php" class="text">MR. ROBOT T03EP01</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T03EP02.php" class="text">MR. ROBOT T03EP02</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T03EP03.php" class="text">MR. ROBOT T03EP03</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T03EP04.php" class="text">MR. ROBOT T03EP04</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T03EP05.php" class="text">MR. ROBOT T03EP05</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T03EP06.php" class="text">MR. ROBOT T03EP06</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T03EP07.php" class="text">MR. ROBOT T03EP07</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T03EP08.php" class="text">MR. ROBOT T03EP08</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T03EP09.php" class="text">MR. ROBOT T03EP09</a></li>
+            <li><a href="Mr-Robot/Mr-Robot-T03EP10.php" class="text">MR. ROBOT T03EP10</a></li>
                 </ul></div></div></div>
             <!-- Seção final -->
   			<footer id="contact">

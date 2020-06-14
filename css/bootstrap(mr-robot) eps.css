@@ -5,21 +5,22 @@ body {
 	margin: 4;
 }
 /* Container */
+.corp{
+	background-image: url("../images/mr-robot-poster.jpg");
+	background-repeat: no-repeat;
+	background-position:left top;
+	background-size:2900px;
+	display: block;
+}
+.center {
+	padding-top: 52px;
+}
+/* Container */
 .container {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #FFFFFF;
-}
-header {
-	width: 90%;
-	padding: 52px;
-	float: left;
-	height: 8%;
-	background-image: url(../images/mrrobot.jpg);
-	background-size: 920px;
-	background-repeat: no-repeat;
-	background-position:center;
+	margin-top: 20px;
 }
 /*MENU*/
 #select{
@@ -91,10 +92,9 @@ header {
 	background-color: #FFFFFF;
 	padding-bottom: 20px;
 	border-radius: 3px;
-	padding-top: 2px;
-	padding-left:13px;
+	padding-top: 20px;
 	padding-right: 2px;
-	margin-left: 99px;
+	padding-left: 130px;
 }
 .thumbnail h4 {
 	margin-top: 5px;
@@ -106,8 +106,9 @@ header {
 	font-size: 40px;
 }
 .cards {
-	width:600px; 
-	height:400px;
+	width:850px;
+	height: 500px;
+	position: center;
 }
 .text_column2 {
 	line-height: 15px;

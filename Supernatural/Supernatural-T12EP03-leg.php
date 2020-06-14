@@ -94,7 +94,7 @@
   <div class="gallery">
   		<div class="thumbnail">
   		  <iframe width="500" src="//ok.ru/videoembed/184447404679?rel=0&autoplay=1" class="cards" frameborder="0" allowfullscreen></iframe>
-  		  <h4>Supernatural T12EP03 <strong style="color:red">Legendado</strong></h4>
+  		  <h4>Supernatural T12EP03 <strong style="color:#FF0000">Legendado</strong></h4>
         </div></div>
         <!-- Footer Section -->
   <footer id="contact">

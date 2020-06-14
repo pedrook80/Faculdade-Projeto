@@ -103,7 +103,7 @@
 			<a href="#" download="Gotham">Baixar Todas as Temporadas</a></div>-->
 		<div class="position_baixo">
       	<div class="alinhamento">
-			<h3 class="thumb22"><span>1ª Temporada <strong style="color:red">EM BREVE</strong></span>&nbsp&nbsp&nbsp<span><a href="magnet:?xt=urn:btih:FD4013A545409CD57E8AE2BC75BEEE52BBA13558&dn=Gotham%201%c2%aa%20Temporada%20%282014%29%20BRRip%20720p%20Dual%20Audio%20%2b%20Legendas%20%28ToTTi9%29%20ThePirateFilmes&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.ccc.de%3a80%2fannounce" download="Gotham"><img src="images/download.png" width="29px"/></a></span></h3>
+			<h3 class="thumb22"><span>1ª Temporada <strong style="color:#FF0000">EM BREVE</strong></span>&nbsp&nbsp&nbsp<span><a href="magnet:?xt=urn:btih:FD4013A545409CD57E8AE2BC75BEEE52BBA13558&dn=Gotham%201%c2%aa%20Temporada%20%282014%29%20BRRip%20720p%20Dual%20Audio%20%2b%20Legendas%20%28ToTTi9%29%20ThePirateFilmes&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.ccc.de%3a80%2fannounce" download="Gotham"><img src="images/download.png" width="29px"/></a></span></h3>
 			<!--<div id="epsetemps">
         		<ul class="temps" id="temp1">
             <li><a href="#" class="text">Gotham T01EP01</a></li>
