@@ -69,7 +69,14 @@ body {
 	color: #12E19D; 
 	font-weight: bold;
 }
-/* fim */
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0;
+	letter-spacing: 4px;
+}
+
+
 .gallery {
 	clear: both;
 	display: inline-block;

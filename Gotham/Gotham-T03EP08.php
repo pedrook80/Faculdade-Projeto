@@ -5,16 +5,12 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="css/bootstrap(gotham) eps.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="images/vsicon.png">
+<link href="../css/bootstrap(gotham)eps.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../images/vsicon.png">
 <title>Gotham T03EP08</title></head>
 <body>
 <!-- Main Container -->
-<div class="container"> 
-  <!-- Header -->
-  <header class="header">
-    <h4 class="logo"><!--<a href=.php">-->VIA SÉRIE </h4>
-  </header>
+<div class="corp"><div align="center" class="center"><img alt="" src="../images/logo2.png"/></div><div class="container">
   <div class=" menu-item-43">
     <nav id="menu" class="container">
       <ul id="menu-top-menu" class="sf-menu">
@@ -92,12 +88,8 @@
       <?php  } ?>
     	</select>
   <div class="gallery">
-  		<div class="options">
-        <ul id="options">
-              <li><a href="http://cdnfe3.azureedge.net/RCServer11/ondemand/GTHMT03EP08.mp4?rel=0&autoplay=1" target="video1.php"> OPÇÃO 1</a></li>
-      </ul>
   	<div class="thumbnail">
-       	<iframe name="video1" id="video1" class="cards" width="500px" src="https://ok.ru/videoembed/190104799879?rel=0&autoplay=1" frameborder="1" allowfullscreen></iframe>        
+       	<video autoplay controls  width="500" class="cards" src="https://prisma1.azureedge.net/d/RCServer11/ondemand/GTHMT03EP08.mp4" type="video/mp4"></video>      
         <h4>Gotham T03EP08</h4>
         </div></div>
         <!-- Footer Section -->

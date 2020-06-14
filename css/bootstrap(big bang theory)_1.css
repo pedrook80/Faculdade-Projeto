@@ -16,11 +16,10 @@ header {
 	padding: 52px;
 	float: left;
 	height: 8%;
-	background-image: url(../images/bloodoill.jpg);
-	background-size: 870px;
+	background-image: url(../images/the-big-bang-theory-logo.jpg);
+	background-size: 800px;
 	background-repeat: no-repeat;
-	background-position: center;
-	letter-spacing: px;
+	background-position: center bottom;
 }
 /*MENU*/
 #select{
@@ -52,21 +51,39 @@ header {
 }
 #menu ul li a:hover {
 	background-color:#000000;
-	color: #D6A26E;
-	border-bottom:6px solid #046029;
+	color: #C41100;
+	border-bottom:6px solid #D57100;
 }
 .logo {
-	color: #12E19D; 
+	color: #12E19D;
 	font-weight: bold;
 	margin-left: auto;
 	letter-spacing: 55px;
 	margin-right: auto;
 	text-align: center;
-	padding-top: 11px;
+	padding-top: 1px;
 	line-height: 35px;
 	font-size:25px;
 }
 /* fim */
+/* temporadas */
+p {
+	width: 50%;
+}
+.text {
+	text-decoration: none;
+	color:#1F83B4;
+}
+.text:hover {
+	color: #D57100;
+	font-size:18px;	
+}
+
+/* fim temporadas*/
+.cards {
+	max-width:600px;
+	max-height:500px;
+}
 .gallery {
 	clear: both;
 	display: inline-block;
@@ -90,29 +107,66 @@ header {
 	padding-right: 2px;
 	margin-left: 99px;
 }
-.thumbnail h4 {
+.gallery .thumbnail h4 {
 	margin-top: 5px;
 	margin-bottom: 5px;
-	color: #2B2828;
 	text-align: left;
 	padding-left: 20px;
 	padding-right: 20px;
 	font-size: 40px;
 }
-.cards {
-	width:600px; 
-	height:400px;
+.gallery .thumbnail h4 a {
+	text-decoration:none;
+	margin-bottom: 5px;
+	color: #D57100;
 }
+.gallery .thumbnail h3 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #D57100;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+}
+
 .text_column2 {
+	width:100%;
 	line-height: 15px;
 	font-size: 18px;
-	padding-bottom: px;
+	padding-bottom: 1px;
 	
+}
+.gallery .thumbnail .tag {
+	color: #5D5E5D;
+	padding-top: 4px;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom:10px;
+}
+p {	
+	margin: 0;
+	color: #D57100;
+	text-align: left;
+	padding-left: 20px;
+
+}
+.ver {
+	padding-top: 25px;
+	padding-bottom: 20px;
+	font-size: 25px;
 }
 footer {
 	background-color: #B3B3B3;
 	padding-top: 8px;
 	padding-bottom: 8PX;
+}
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0;
+	letter-spacing: 4px;
 }
 .button {
 	width: 200px;
@@ -132,18 +186,12 @@ footer {
 	letter-spacing: 2px;
 	border: 3px solid #717070;
 	color: #FFFFFF;
-	transition: all 0.3s linear;
+	transition: all 0.5s linear;
 }
 .button:hover {
-	background-color: #717272;
+	background-color: #D57100;
 	color: #FFFFFF;
 	cursor: pointer;
-}
-.hero_header {
-	color: #FFFFFF;
-	text-align: center;
-	margin: 0;
-	letter-spacing: 4px;
 }
 .copyright {
 	text-align: center;
@@ -165,12 +213,12 @@ footer {
 	margin-right: 0px;
 	margin-bottom: 10px;
 	margin-left: 0px;
-	letter-spacing:25px;
-	padding-right: 50px;
+	letter-spacing:20px;
+	padding-right:px;
 }
 .header {
 	padding-right:2px;
-	background-size:280px;
+	background-size:250px;
 }
 #menu {
 	display:none;
@@ -180,43 +228,49 @@ footer {
 	padding: 8px 10px;
 	position:relative;
 	top:15px;
-	color: #D6A26E;
+	color: #8A4400;
 	background-color: #1D969C; 
 	font-size:12px;
 }
 .thumbnail {
 	width: 100%;
-	padding-right:1px;
-	padding-left: 1px;
 	margin-left:1px;
+	padding-left: 1px;
 }
 .gallery {
 	padding-left: 1px;
 }
+.gallery .thumbnail .tag { 
+	width: 90%;
+	margin-right: 2px;
+	padding-right: 59px;
+	padding-left: 10px
+}
 .gallery .thumbnail h4 {
-	font-size: 25px;
+	width: 100%;
+	padding-left: 1px;
+	font-size:31px;
 }
 .cards {
 	max-width: 280px;
 	max-height: 200px;
+	opacity: 0.9;
 }
 .text_column {
 	width: 100%;
 	text-align: justify;
 	padding: 0;
-}
-.text_column {
 	padding-left: 20px;
-}
-.button {
-	padding-right: 1px;
-	padding-left: 1px; 
 }
 .hero_header {
 	padding-left: 10px;
 	padding-right: 10px;
 	line-height: 22px;
 	text-align: center;
+}
+.button {
+	padding-left: 1px;
+	padding-right:1px;
 }
 }
 
@@ -229,11 +283,11 @@ footer {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	letter-spacing:30px;
+	letter-spacing:2px;
 }
 .header{
-	background-size: 350px;
-	padding-right:2px;
+	background-size: 460px;
+	padding-right:21px;
 }
 #menu {
 	display:none;
@@ -243,39 +297,67 @@ footer {
 	padding: 8px 10px;
 	position:relative;
 	top:15px;
-	color: #D6A26E;
+	color: #8A4400;
 	background-color: #1D969C; 
 	font-size:15px;
 }
-.thumbnail {
-	width: 100%;
-	margin-right: 1px;
-	padding-left:2px;
-	padding-right:2px;	
-}
-.gallery {
-	padding-left: 1px;
-}
-.gallery .thumbnail h4 {
-	font-size: 40px;
-}
 .cards {
-	width: 90%;
-	max-width: 450px;
-	max-height:300px;
+	max-width: 350px;
+	max-height: 200px;
+	opacity: 0.9;
 	padding-right:15px;
-	
-}
-.text_column {
-	width: 100%; 
-	text-align: left;
-	padding: 0;
-	padding-left: 20px;
-	padding-right: 20px;
 }
 .thumbnail {
 	width: 100%;
 	margin-left:2px;
+	margin-right: 2px;
+	padding-right: 2px;
+	padding-left: 5px;	
+}
+.gallery {
+	padding-left: 1px;
+}
+.gallery .thumbnail .tag {
+	width: 70%;
+}
+.gallery .thumbnail h4 {
+	width: 100%;
+	padding-left: 1px;
+	font-size:31px;
+}
+.text_column {
+	width: 20%;
+	text-align: left;
+	padding: 0;
+}
+.thumbnail {
+	width: 100%;
+}
+.column {
+	width: 100%;
+	margin-top: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.text_column {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 90%;
+	
+}
+.column {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.profile {
+	width: 100%;
+}
+.intro .column p {
+	width: 90%;
+	text-align: center;
+	padding-left: 0px;
 }
 }
 /* Small Desktops */
@@ -291,18 +373,26 @@ footer {
 	padding: 8px 10px;
 	position: relative;
 	top:15px;
-	color: #D6A26E;
+	color: #8A4400;
 	background-color: #1D969C;
 	font-size:17px;
 }
 .thumbnail {
-	width: 80%;
-	padding-left:2px;
-	margin-left:82px;
+	width: 90%;
 }
 .gallery {
 	padding-left: 2px;
 	padding-right: 2px;
+}
+.gallery .thumbnail .tag {
+	width:80%;
+	margin-right: 52px;
+}
+.cards {
+	max-width: 600px;
+	max-height: 500px;
+	opacity: 0.9;
+	padding-right:15px;
 }
 .text_column {
 	width: 90%;

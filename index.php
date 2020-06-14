@@ -93,44 +93,30 @@
       <h4><a href="Dcs-Legends-Of-Tomorrow.php">DC'S LEGENDS OF TOMORROW</a></h4>
       <p class="tag"> Quando heróis sozinhos não são o suficiente… o mundo precisa de lendas. Rip Hunter (Arthur Darvill) viaja no tempo para reunir um improvável time de heróis e vilões para<a href="DCs-Legends-Of-Tomorrow">Mais ...</a></p>  </div>
     </div>
-    <div class="thumbnail"><div class="series"><a href="#"><img src="images/american-horror-story.jpg" alt="" width="2000" class="cards"/></a>
-      <h4><a href="#">AMERICAN HORROR STORY</a></h4>
-      <p class="tag">&emsp;American Horror Story é uma série de terror e suspense, que, a cada temporada, conta uma nova história centrada em um tema e <a href="#">Mais ...</a></p>  </div>
+	  <div class="thumbnail"><div class="series"><a href="Gotham.php"><img src="images/gotham-card.jpg" alt="GOTHAM" width="2000" class="cards"/></a>
+      <h4><a href="Gotham.php">GOTHAM</a></h4>
+      <p class="tag">&emsp;Barry Allen (Grant Gustin) era um funcionário da Polícia Científica que, ao sofrer um acidente, foi banhado por produtos químicos em seu laboratório e, em seguida<a href="Gotham.php">Mais ...</a></p></div>
     </div>
-    <div class="thumbnail"><div class="series"><a href="The-Flash.php"><img src="images/the flash.jpg" alt="The Flash" width="2000" class="cards"/></a>
-      <h4><a href="The-Flash.php">THE FLASH</a> </h4>
-      <p class="tag">&emsp;Barry Allen (Grant Gustin) era um funcionário da Polícia Científica que, ao sofrer um acidente, foi banhado por produtos químicos em seu laboratório e, em seguida, atingido<a href="The-Flash">Mais ...</a></p></div>
+    <div class="thumbnail"><div class="series"><a href="Mr-Robot.php"><img src="images/Mr.Robot.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="Mr-Robot.php">MR. ROBOT</a> </h4>
+      <p class="tag">Elliot (Rami Malek) é um jovem programador que trabalha como engenheiro de segurança virtual durante o dia, e como hacker vigilante durante a noite. Elliot se vê numa encruzilhada<a href="Mr-Robot">Mais ...</a></p></div>
     </div>
-    <div class="thumbnail"><div class="series"><a href="Supernatural.php"><img src="images/Supernatural.jpg" alt="" width="2000" class="cards"/></a>
+	  <div class="thumbnail"><div class="series"><a href="Supernatural.php"><img src="images/Supernatural.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="Supernatural.php">SUPERNATURAL</a></h4>
       <p class="tag">&emsp;Desde que era pequeno, Sam Winchester (Jared Padalecki) tentava escapar do próprio passsado. Após a misteriosa morte de Mary (Samantha Smith), o pai de Sam<a href="Supernatural">Mais ...</a></p>  </div>
     </div>
-  </div>
-  <div class="gallery">
     <div class="thumbnail"><div class="series"><a href="The-Big-Bang-Theory.php"><img src="images/The-Big-Bang-Theory.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="The-Big-Bang-Theory.php">THE BIG BANG THEORY</a></h4>
       <p class="tag">&emsp;Leonard e Sheldon podem lhe dizer tudo o que você quiser saber sobre física quântica. Mas eles não seriam capazes de lhe dizer nada sobre a vida “real”, as relações<a href="The-Big-Bang-Theory">Mais ...</a></p></div>
+    </div>
+	  <div class="thumbnail"><a href="The-Originals.php"><img src="images/the-originals.jpg" alt="" width="2000" class="cards"/></a>
+      <h4><a href="The-Originals.php">THE ORIGINALS</a></h4>
+      <p class="tag">Um spin-off de The Vampire Diaries, que se passa em New Orleans. A série é centrada nos irmãos Mikaelson, que são conhecidos como os vampiros originais do mundo<a href="The-Originals">Mais ...</a></p>
     </div>
     <div class="thumbnail"><div class="series"><a href="Stranger-Things.php"><img src="images/stranger-things.jpg" alt="STRANGER THINGS" width="2000" class="cards"/></a>
       <h4><a href="Stranger-Things.php">STRANGER THINGS</a></h4>
       <p class="tag">&emsp;Ambientada em Montauk, Long Island, conta a história de um garoto que desaparece misteriosamente. Enquanto a polícia, a família e os amigos procuram respostas, eles <a href="Stranger-Things">Mais ...</a></p></div>
       </div>
-    <div class="thumbnail"><div class="series"><a href="Shadowhunters.php"><img src="images/shadowhunters.jpg" alt="SHADOWHUNTERS" width="2000" class="cards"/></a>
-      <h4><a href="Shadowhunters.php">SHADOWHUNTERS</a></h4>
-      <p class="tag">&emsp;Clary (Katherine McNamara) é uma adolescente comum que, sem querer, presencia um assassinato dos “Caçadores de Sombras”. Ela se unirá ao grupo de misteriosos<a href="Shadowhunters">Mais ...</a></p></div>
-    </div>
-    <div class="thumbnail"><div class="series"><a href="The-Walking-Dead.php"><img src="images/the-walking-dead.jpg" alt="THE WALKING DEAD" width="2000" class="cards"/></a>
-      <h4><a href="The-Walking-Dead.php">THE WALKING DEAD</a></h4>
-      <p class="tag">&emsp;Um Apocalipse provoca uma infestação de zumbis na cidade de Cynthiana, em Kentucky, nos Estados Unidos, e o oficial de polícia Rick Grimes (Andrew Lincoln) descobre que<a href="The-Walking-Dead">Mais ...</a></p></div>
-    </div>
-    <div class="thumbnail"><div class="series"><a href="Greys-Anatomy.php"><img src="images/greys-anatomy-13.jpg" alt="GREY'S ANATOMY" width="2000" class="cards"/></a>
-      <h4><a href="Greys-Anatomy.php">GREY'S ANATOMY</a></h4>
-      <p class="tag">&emsp;Meredith Grey (Ellen Pompeo) começa a trabalhar no Seattle Grace Hospital e logo descobre que passou a noite com um dos seus chefes, Dr. Derek Shepherd (Patrick Dempsey)<a href="Greys-Anatomy">Mais ...</a></p></div>
-    </div>
-    <div class="thumbnail"><div class="series"><a href="Gotham.php"><img src="images/gotham.jpg" alt="GOTHAM" width="2000" class="cards"/></a>
-      <h4><a href="Gotham.php">GOTHAM</a></h4>
-      <p class="tag">&emsp;Barry Allen (Grant Gustin) era um funcionário da Polícia Científica que, ao sofrer um acidente, foi banhado por produtos químicos em seu laboratório e, em seguida<a href="Gotham.php">Mais ...</a></p></div>
-    </div>
   </div>
   <!-- Footer Section -->
   <footer id="contact">

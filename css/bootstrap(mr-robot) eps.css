@@ -65,7 +65,14 @@ header {
 	line-height: 35px;
 	font-size:25px;
 }
-/* fim */
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0;
+	letter-spacing: 4px;
+}
+
+
 .gallery {
 	clear: both;
 	display: inline-block;
