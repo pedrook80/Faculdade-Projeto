@@ -7,7 +7,7 @@ $entrar = isset( $_POST[ 'entrar' ] ) ? $_POST[ 'entrar' ] : null ;
 $senha = isset ($_POST[ 'senha' ] ) ? $_POST[ 'senha' ] : null;
 $senha = md5($senha);
 
-$connect = mysqli_connect('127.0.0.1','root','','projeto','3308');
+$connect = mysqli_connect('sql10.freesqldatabase.com','sql10346904','PqmNhtNC6g','sql10346904', '3306');
 $ver = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'";
 $verifica = mysqli_query($connect,$ver);
 $dados = mysqli_fetch_assoc($verifica);
