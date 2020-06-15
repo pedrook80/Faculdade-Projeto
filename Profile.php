@@ -6,19 +6,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="css/profile.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="images/vsicon.png">
+<link href="css/cadastro.css" rel="stylesheet" type="text/css">
 <title>VIA SÉRIE</title>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-83545183-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 <?php
-if((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true) and (!isset ($_SESSION['nome']) == true))
+if((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true) and (!isset ($_SESSION['nome']) == true)
+and (!isset ($_SESSION['id_usuarios']) == true))
 {
   unset($_SESSION['email']);
   unset($_SESSION['senha']);
   unset($_SESSION['nome']);
+  unset ($_SESSION['id_usuarios']);
   header('location:login.php');
   }
 
 $logado = $_SESSION['email'];
-?></head>
+
+?>
+</head>
 <body>
 <!-- Main Container -->
 <div class="corp"><div align="center" class="center"><img alt="" src="images/logo2.png"/></div>
@@ -106,13 +120,44 @@ $logado = $_SESSION['email'];
             <?php echo $_SESSION['nome'];?>
           </div>
           <div class="profile-usertitle-email">
-            <?php echo $_SESSION['email'];?>
+            <?php echo $_SESSION['email'];
+             $_SESSION['id_usuarios'];?>
           </div>
         </div>
+        </div>
+        </div>
+        
         <!-- END SIDEBAR USER TITLE -->
         <!-- SIDEBAR BUTTONS -->
-        <div class="profile-userbuttons">
+        <!--<div class="profile-userbuttons">
           <div class="botao"><a href="alterar.php">Editar Perfil</a></div>
+          <div class="content"> -->     
+      <!--LOGIN-->
+      
+      <div id="login">
+        <form action="alterado.php" method="post" > 
+          
+          <p> 
+            <label for="email">Seu e-mail</label>
+            <input id="email" name="email" required="required" type="text" placeholder="ex. contato@umprovedorqualquer.com"/>
+          </p>
+           
+          <p> 
+            <label for="senha">Sua senha</label>
+            <input id="senha" name="senha" required="required" type="password" placeholder="ex. senha" /> 
+          </p>
+           
+          <input id="id_usuarios" type="hidden" name="id_usuarios" value="<?php echo $_SESSION['id_usuarios']; ?>"/> 
+           
+          <p> 
+            <input type="submit" value="alterar" name="alterar"/> 
+          </p>
+           
+      
+        </form>
+    </div>
+    </div>
+  </div>
 		  <div class="botao-sair"><p><a href="sair.php">Sair</a></p></div>
         </div>
         <!-- END SIDEBAR BUTTONS -->
@@ -134,7 +179,7 @@ $logado = $_SESSION['email'];
     <div class="button"><a style="text-decoration:none; color:#FFFFFF" href="contato.html">CONTATE-NOS</a></div>
   </footer>
   <!-- Copyrights Section -->
-  <div class="copyright">&copy;2020 - <a style="text-decoration:none" href="index.html"><strong style="color:#12E19D">VIA SÉRIE </strong></a></div>
+  <div class="copyright">&copy;2019 - <a style="text-decoration:none" href="index.html"><strong style="color:#12E19D">VIA SÉRIE </strong></a></div>
 	</div></div>
 <!-- Main Container Ends 
 <aside id="text-5" class="widget widget_text clearfix"><h3 class="heading"><span>Mais Populares</span></h3><div class="textwidget"><div class="entry-listing clearfix">
