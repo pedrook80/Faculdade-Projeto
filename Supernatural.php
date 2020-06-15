@@ -373,83 +373,83 @@
              <h3 class="heading"><span>11ª Temporada</span></h3>
             <div id="temp11">
 			<ul id="lista_eps11">
-            <li><a href="Supernatural-T11EP01.php" class="text">Supernatural T11EP01</a></li>
-            <li><a href="Supernatural-T11EP02.php" class="text">Supernatural T11EP02</a></li>
-            <li><a href="Supernatural-T11EP03.php" class="text">Supernatural T11EP03</a></li>
-            <li><a href="Supernatural-T11EP04.php" class="text">Supernatural T11EP04</a></li>
-            <li><a href="Supernatural-T11EP05.php" class="text">Supernatural T11EP05</a></li>
-            <li><a href="Supernatural-T11EP06.php" class="text">Supernatural T11EP06</a></li>
-            <li><a href="Supernatural-T11EP07.php" class="text">Supernatural T11EP07</a></li>
-            <li><a href="Supernatural-T11EP08.php" class="text">Supernatural T11EP08</a></li>
-            <li><a href="Supernatural-T11EP09.php" class="text">Supernatural T11EP09</a></li>
-            <li><a href="Supernatural-T11EP10.php" class="text">Supernatural T11EP10</a></li>
-            <li><a href="Supernatural-T11EP11.php" class="text">Supernatural T11EP11</a></li>
-            <li><a href="Supernatural-T11EP12.php" class="text">Supernatural T11EP12</a></li>
-            <li><a href="Supernatural-T11EP13.php" class="text">Supernatural T11EP13</a></li>
-            <li><a href="Supernatural-T11EP14.php" class="text">Supernatural T11EP14</a></li>
-            <li><a href="Supernatural-T11EP15.php" class="text">Supernatural T11EP15</a></li>
-            <li><a href="Supernatural-T11EP16.php" class="text">Supernatural T11EP16</a></li>
-            <li><a href="Supernatural-T11EP17.php" class="text">Supernatural T11EP17</a></li>
-            <li><a href="Supernatural-T11EP18.php" class="text">Supernatural T11EP18</a></li>
-            <li><a href="Supernatural-T11EP19.php" class="text">Supernatural T11EP19</a></li>
-            <li><a href="Supernatural-T11EP20.php" class="text">Supernatural T11EP20</a></li>
-           	<li><a href="Supernatural-T11EP21.php" class="text">Supernatural T11EP21</a></li>
-            <li><a href="Supernatural-T11EP22.php" class="text">Supernatural T11EP22</a></li>
-            <li><a href="Supernatural-T11EP23.php" class="text">Supernatural T11EP23</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP01.php" class="text">Supernatural T11EP01</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP02.php" class="text">Supernatural T11EP02</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP03.php" class="text">Supernatural T11EP03</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP04.php" class="text">Supernatural T11EP04</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP05.php" class="text">Supernatural T11EP05</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP06.php" class="text">Supernatural T11EP06</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP07.php" class="text">Supernatural T11EP07</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP08.php" class="text">Supernatural T11EP08</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP09.php" class="text">Supernatural T11EP09</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP10.php" class="text">Supernatural T11EP10</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP11.php" class="text">Supernatural T11EP11</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP12.php" class="text">Supernatural T11EP12</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP13.php" class="text">Supernatural T11EP13</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP14.php" class="text">Supernatural T11EP14</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP15.php" class="text">Supernatural T11EP15</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP16.php" class="text">Supernatural T11EP16</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP17.php" class="text">Supernatural T11EP17</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP18.php" class="text">Supernatural T11EP18</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP19.php" class="text">Supernatural T11EP19</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP20.php" class="text">Supernatural T11EP20</a></li>
+           	<li><a href="Supernatural/Supernatural-T11EP21.php" class="text">Supernatural T11EP21</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP22.php" class="text">Supernatural T11EP22</a></li>
+            <li><a href="Supernatural/Supernatural-T11EP23.php" class="text">Supernatural T11EP23</a></li>
             </ul></div>
             <h3 class="heading"><span>12ª Temporada</span></h3>
             <div id="temp12">
 			<ul id="lista_eps12">
-            <li><a href="Supernatural-T12EP01.php" class="text">Sueprnatural T12EP01 / <a href="Supernatural-T12EP01-leg.php" style="text-decoration: none; color:green">LEGENDADO</a></a></li>
-            <li><a href="Supernatural-T12EP02.php" class="text">Sueprnatural T12EP02  / <a href="Supernatural-T12EP02-leg.php" style="text-decoration: none; color:green">LEGENDADO</a></a></li>
-            <li><a href="Supernatural-T12EP03.php" class="text">Sueprnatural T12EP03  / <a href="Supernatural-T12EP03-leg.php" style="text-decoration: none; color:green">LEGENDADO</a></a></li>
-			<li><a href="Supernatural-T12EP04.php" class="text">Sueprnatural T12EP04  / <a href="Supernatural-T12EP04-leg.php" style="text-decoration: none; color:green">LEGENDADO</a></a></li>
-			<li><a href="Supernatural-T12EP05.php" class="text">Supernatural T12EP05</a></li>
-            <li><a href="Supernatural-T12EP06.php" class="text">Supernatural T12EP06</a></li>
-            <li><a href="Supernatural-T12EP07.php" class="text">Supernatural T12EP07</a></li>
-            <li><a href="Supernatural-T12EP08.php" class="text">Supernatural T12EP08</a></li>
-            <li><a href="Supernatural-T12EP09.php" class="text">Supernatural T12EP09</a></li>
-            <li><a href="Supernatural-T12EP10.php" class="text">Supernatural T12EP10</a></li>
-            <li><a href="Supernatural-T12EP11.php" class="text">Supernatural T12EP11</a></li>
-            <li><a href="Supernatural-T12EP12.php" class="text">Supernatural T12EP12</a></li>
-            <li><a href="Supernatural-T12EP13.php" class="text">Supernatural T12EP13</a></li>
-            <li><a href="Supernatural-T12EP14.php" class="text">Supernatural T12EP14</a></li>
-            <li><a href="Supernatural-T12EP15.php" class="text">Supernatural T12EP15</a></li>
-            <li><a href="Supernatural-T12EP16.php" class="text">Supernatural T12EP16</a></li>
-            <li><a href="Supernatural-T12EP17.php" class="text">Supernatural T12EP17</a></li>
-            <li><a href="Supernatural-T12EP18.php" class="text">Supernatural T12EP18</a></li>
-            <li><a href="Supernatural-T12EP19.php" class="text">Supernatural T12EP19</a></li>
-            <li><a href="Supernatural-T12EP20.php" class="text">Supernatural T12EP20</a></li>
-           	<li><a href="Supernatural-T12EP21.php" class="text">Supernatural T12EP21</a></li>
-            <li><a href="Supernatural-T12EP22.php" class="text">Supernatural T12EP22</a></li>
-            <li><a href="Supernatural-T12EP23.php" class="text">Supernatural T12EP23</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP01.php" class="text">Sueprnatural T12EP01 / <a href="Supernatural/Supernatural-T12EP01-leg.php" style="text-decoration: none; color:green">LEGENDADO</a></a></li>
+            <li><a href="Supernatural/Supernatural-T12EP02.php" class="text">Sueprnatural T12EP02  / <a href="Supernatural/Supernatural-T12EP02-leg.php" style="text-decoration: none; color:green">LEGENDADO</a></a></li>
+            <li><a href="Supernatural/Supernatural-T12EP03.php" class="text">Sueprnatural T12EP03  / <a href="Supernatural/Supernatural-T12EP03-leg.php" style="text-decoration: none; color:green">LEGENDADO</a></a></li>
+			<li><a href="Supernatural/Supernatural-T12EP04.php" class="text">Sueprnatural T12EP04  / <a href="Supernatural/Supernatural-T12EP04-leg.php" style="text-decoration: none; color:green">LEGENDADO</a></a></li>
+			<li><a href="Supernatural/Supernatural-T12EP05.php" class="text">Supernatural T12EP05</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP06.php" class="text">Supernatural T12EP06</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP07.php" class="text">Supernatural T12EP07</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP08.php" class="text">Supernatural T12EP08</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP09.php" class="text">Supernatural T12EP09</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP10.php" class="text">Supernatural T12EP10</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP11.php" class="text">Supernatural T12EP11</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP12.php" class="text">Supernatural T12EP12</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP13.php" class="text">Supernatural T12EP13</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP14.php" class="text">Supernatural T12EP14</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP15.php" class="text">Supernatural T12EP15</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP16.php" class="text">Supernatural T12EP16</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP17.php" class="text">Supernatural T12EP17</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP18.php" class="text">Supernatural T12EP18</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP19.php" class="text">Supernatural T12EP19</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP20.php" class="text">Supernatural T12EP20</a></li>
+           	<li><a href="Supernatural/Supernatural-T12EP21.php" class="text">Supernatural T12EP21</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP22.php" class="text">Supernatural T12EP22</a></li>
+            <li><a href="Supernatural/Supernatural-T12EP23.php" class="text">Supernatural T12EP23</a></li>
             </ul></div>
 		<h3 class="heading"><span>13ª Temporada</span></h3>
             <div id="temp13">
 			<ul id="lista_eps13">
-            <li><a href="Supernatural-T13EP01.php" class="text">Supernatural T13EP01</a></li>
-            <li><a href="Supernatural-T13EP02.php" class="text">Supernatural T13EP02</a></li>
-            <li><a href="Supernatural-T13EP03.php" class="text">Supernatural T13EP03</a></li>
-            <li><a href="Supernatural-T13EP04.php" class="text">Supernatural T13EP04</a></li>
-            <li><a href="Supernatural-T13EP05.php" class="text">Supernatural T13EP05</a></li>
-            <li><a href="Supernatural-T13EP06.php" class="text">Supernatural T13EP06</a></li>
-            <li><a href="Supernatural-T13EP07.php" class="text">Supernatural T13EP07</a></li>
-            <li><a href="Supernatural-T13EP08.php" class="text">Supernatural T13EP08</a></li>
-            <li><a href="Supernatural-T13EP09.php" class="text">Supernatural T13EP09</a></li>
-            <li><a href="Supernatural-T13EP10.php" class="text">Supernatural T13EP10</a></li>
-            <li><a href="Supernatural-T13EP11.php" class="text">Supernatural T13EP11</a></li>
-            <li><a href="Supernatural-T13EP12.php" class="text">Supernatural T13EP12</a></li>
-            <li><a href="Supernatural-T13EP13.php" class="text">Supernatural T13EP13</a></li>
-            <li><a href="Supernatural-T13EP14.php" class="text">Supernatural T13EP14</a></li>
-            <li><a href="Supernatural-T13EP15.php" class="text">Supernatural T13EP15</a></li>
-            <li><a href="Supernatural-T13EP16.php" class="text">Supernatural T13EP16</a></li>
-            <li><a href="Supernatural-T13EP17.php" class="text">Supernatural T13EP17</a></li>
-            <li><a href="Supernatural-T13EP18.php" class="text">Supernatural T13EP18</a></li>
-            <li><a href="Supernatural-T13EP19.php" class="text">Supernatural T13EP19</a></li>
-            <li><a href="Supernatural-T13EP20.php" class="text">Supernatural T13EP20</a></li>
-           	<li><a href="Supernatural-T13EP21.php" class="text">Supernatural T13EP21</a></li>
-            <li><a href="Supernatural-T13EP22.php" class="text">Supernatural T13EP22</a></li>
-            <li><a href="Supernatural-T13EP23.php" class="text">Supernatural T13EP23 <img src="images/new.png" alt="Novo episodio 'Temporada 12ª episodio 4" width="29px"/></a></li>
+            <li><a href="Supernatural/Supernatural-T13EP01.php" class="text">Supernatural T13EP01</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP02.php" class="text">Supernatural T13EP02</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP03.php" class="text">Supernatural T13EP03</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP04.php" class="text">Supernatural T13EP04</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP05.php" class="text">Supernatural T13EP05</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP06.php" class="text">Supernatural T13EP06</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP07.php" class="text">Supernatural T13EP07</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP08.php" class="text">Supernatural T13EP08</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP09.php" class="text">Supernatural T13EP09</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP10.php" class="text">Supernatural T13EP10</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP11.php" class="text">Supernatural T13EP11</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP12.php" class="text">Supernatural T13EP12</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP13.php" class="text">Supernatural T13EP13</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP14.php" class="text">Supernatural T13EP14</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP15.php" class="text">Supernatural T13EP15</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP16.php" class="text">Supernatural T13EP16</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP17.php" class="text">Supernatural T13EP17</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP18.php" class="text">Supernatural T13EP18</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP19.php" class="text">Supernatural T13EP19</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP20.php" class="text">Supernatural T13EP20</a></li>
+           	<li><a href="Supernatural/Supernatural-T13EP21.php" class="text">Supernatural T13EP21</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP22.php" class="text">Supernatural T13EP22</a></li>
+            <li><a href="Supernatural/Supernatural-T13EP23.php" class="text">Supernatural T13EP23 <img src="images/new.png" alt="Novo episodio 'Temporada 13ª episodio 23" width="29px"/></a></li>
 			</ul></div>
     </div>
 	 </div></div>

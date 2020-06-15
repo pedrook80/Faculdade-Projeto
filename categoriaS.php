@@ -111,7 +111,7 @@
     </div>
     <div class="thumbnail"><a href="Stranger-Things.php"><img src="images/stranger-things.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="Stranger-Things.php">STRANGER THINGS</a></h4>
-      <p class="tag">Ambientada em Montauk, Long Island, conta a história de um garoto que desaparece misteriosamente. Enquanto a polícia, a família e os amigos procuram respostas, eles acabam<a href="Stranger-Things">Mais ...</a></p>
+      <p class="tag">Ambientada em Montauk, Long Island, conta a história de um garoto que desaparece misteriosamente. Enquanto a polícia, a família e os amigos procuram respostas, eles acabam<a href="Stranger-Things.php">Mais ...</a></p>
       </div>
     <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/stalker.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="#">STALKER</a></h4>
@@ -123,7 +123,7 @@
       </div>
     <div class="thumbnail"> <a href="Supernatural.php"><img src="images/Supernatural.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="Supernatural.php">SUPERNATURAL</a></h4>
-      <p class="tag">Desde que era pequeno, Sam Winchester (Jared Padalecki) tentava escapar do próprio passsado. Após a misteriosa morte de Mary (Samantha Smith), o pai de Sam<a href="Supernatural">Mais ...</a></p>
+      <p class="tag">Desde que era pequeno, Sam Winchester (Jared Padalecki) tentava escapar do próprio passsado. Após a misteriosa morte de Mary (Samantha Smith), o pai de Sam<a href="Supernatural.php">Mais ...</a></p>
     </div>
 	</div>
   <!-- Footer Section -->

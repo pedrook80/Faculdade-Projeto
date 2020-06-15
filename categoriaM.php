@@ -99,7 +99,7 @@
     </div>
     <div class="thumbnail"><a href="Mr-Robot.php"><img src="images/Mr.Robot.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="Mr-Robot.php">MR. ROBOT</a> </h4>
-      <p class="tag">Elliot (Rami Malek) é um jovem programador que trabalha como engenheiro de segurança virtual durante o dia, e como hacker vigilante durante a noite. Elliot se vê numa encruzilhada<a href="Mr-Robot">Mais ...</a></p>
+      <p class="tag">Elliot (Rami Malek) é um jovem programador que trabalha como engenheiro de segurança virtual durante o dia, e como hacker vigilante durante a noite. Elliot se vê numa encruzilhada<a href="Mr-Robot.php">Mais ...</a></p>
     </div>
   </div>
   <!-- Footer Section -->

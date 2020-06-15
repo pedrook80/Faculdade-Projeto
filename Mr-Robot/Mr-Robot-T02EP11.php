@@ -97,7 +97,7 @@
         </div></div>
         <!-- Footer Section -->
   <footer id="contact">
-    <p class="hero_header">SENTIU FALTA DE ALGUMA SÉRIE </p>
+    <p class="hero_header"><b>VÍDEO OFF???</b> </p>
     <div class="button"><a style="text-decoration:none; color:#FFFFFF" href="../contato.php">CONTATE-NOS</a></div>
   </footer>
   <!-- Copyrights Section -->

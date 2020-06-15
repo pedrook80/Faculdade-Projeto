@@ -104,7 +104,7 @@
     </div>
     <div class="thumbnail"><a href="The-Big-Bang-Theory.php"><img src="images/The-Big-Bang-Theory.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="The-Big-Bang-Theory.php">THE BIG BANG THEORY</a></h4>
-      <p class="tag">Leonard e Sheldon podem lhe dizer tudo o que você quiser saber sobre física quântica. Mas eles não seriam capazes de lhe dizer nada sobre a vida “real”, as relações<a href="The-Big-Bang-Theory">Mais ...</a></p>  
+      <p class="tag">Leonard e Sheldon podem lhe dizer tudo o que você quiser saber sobre física quântica. Mas eles não seriam capazes de lhe dizer nada sobre a vida “real”, as relações<a href="The-Big-Bang-Theory.php">Mais ...</a></p>  
     </div>
     <div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/the-black-list.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="#">THE BLACKLIST</a></h4>
@@ -120,7 +120,7 @@
         </div>
         <div class="thumbnail"><a href="The-Originals.php"><img src="images/the-originals.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="The-Originals.php">THE ORIGINALS</a></h4>
-      <p class="tag">Um spin-off de The Vampire Diaries, que se passa em New Orleans. A série é centrada nos irmãos Mikaelson, que são conhecidos como os vampiros originais do mundo<a href="The-Originals">Mais ...</a></p>
+      <p class="tag">Um spin-off de The Vampire Diaries, que se passa em New Orleans. A série é centrada nos irmãos Mikaelson, que são conhecidos como os vampiros originais do mundo<a href="The-Originals.php">Mais ...</a></p>
     </div>
     	<div class="thumbnail" id="thumbnail10"><a href="#"><img src="images/the-strain.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="#">THE STRAIN</a></h4>

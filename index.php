@@ -91,7 +91,7 @@
   <div class="gallery">
     <div class="thumbnail"><div class="series"><a href="Dcs-Legends-Of-Tomorrow.php"><img src="images/DCs-Legends-Of-Tomorrow.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="Dcs-Legends-Of-Tomorrow.php">DC'S LEGENDS OF TOMORROW</a></h4>
-      <p class="tag"> Quando heróis sozinhos não são o suficiente… o mundo precisa de lendas. Rip Hunter (Arthur Darvill) viaja no tempo para reunir um improvável time de heróis e vilões para<a href="DCs-Legends-Of-Tomorrow">Mais ...</a></p>  </div>
+      <p class="tag"> Quando heróis sozinhos não são o suficiente… o mundo precisa de lendas. Rip Hunter (Arthur Darvill) viaja no tempo para reunir um improvável time de heróis e vilões para<a href="Dcs-Legends-Of-Tomorrow.php">Mais ...</a></p>  </div>
     </div>
 	  <div class="thumbnail"><div class="series"><a href="Gotham.php"><img src="images/gotham-card.jpg" alt="GOTHAM" width="2000" class="cards"/></a>
       <h4><a href="Gotham.php">GOTHAM</a></h4>
@@ -99,23 +99,23 @@
     </div>
     <div class="thumbnail"><div class="series"><a href="Mr-Robot.php"><img src="images/Mr.Robot.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="Mr-Robot.php">MR. ROBOT</a> </h4>
-      <p class="tag">Elliot (Rami Malek) é um jovem programador que trabalha como engenheiro de segurança virtual durante o dia, e como hacker vigilante durante a noite. Elliot se vê numa encruzilhada<a href="Mr-Robot">Mais ...</a></p></div>
+      <p class="tag">Elliot (Rami Malek) é um jovem programador que trabalha como engenheiro de segurança virtual durante o dia, e como hacker vigilante durante a noite. Elliot se vê numa encruzilhada<a href="Mr-Robot.php">Mais ...</a></p></div>
     </div>
 	  <div class="thumbnail"><div class="series"><a href="Supernatural.php"><img src="images/Supernatural.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="Supernatural.php">SUPERNATURAL</a></h4>
-      <p class="tag">&emsp;Desde que era pequeno, Sam Winchester (Jared Padalecki) tentava escapar do próprio passsado. Após a misteriosa morte de Mary (Samantha Smith), o pai de Sam<a href="Supernatural">Mais ...</a></p>  </div>
+      <p class="tag">&emsp;Desde que era pequeno, Sam Winchester (Jared Padalecki) tentava escapar do próprio passsado. Após a misteriosa morte de Mary (Samantha Smith), o pai de Sam<a href="Supernatural.php">Mais ...</a></p>  </div>
     </div>
     <div class="thumbnail"><div class="series"><a href="The-Big-Bang-Theory.php"><img src="images/The-Big-Bang-Theory.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="The-Big-Bang-Theory.php">THE BIG BANG THEORY</a></h4>
-      <p class="tag">&emsp;Leonard e Sheldon podem lhe dizer tudo o que você quiser saber sobre física quântica. Mas eles não seriam capazes de lhe dizer nada sobre a vida “real”, as relações<a href="The-Big-Bang-Theory">Mais ...</a></p></div>
+      <p class="tag">&emsp;Leonard e Sheldon podem lhe dizer tudo o que você quiser saber sobre física quântica. Mas eles não seriam capazes de lhe dizer nada sobre a vida “real”, as relações<a href="The-Big-Bang-Theory.php">Mais ...</a></p></div>
     </div>
 	  <div class="thumbnail"><a href="The-Originals.php"><img src="images/the-originals.jpg" alt="" width="2000" class="cards"/></a>
       <h4><a href="The-Originals.php">THE ORIGINALS</a></h4>
-      <p class="tag">Um spin-off de The Vampire Diaries, que se passa em New Orleans. A série é centrada nos irmãos Mikaelson, que são conhecidos como os vampiros originais do mundo<a href="The-Originals">Mais ...</a></p>
+      <p class="tag">Um spin-off de The Vampire Diaries, que se passa em New Orleans. A série é centrada nos irmãos Mikaelson, que são conhecidos como os vampiros originais do mundo<a href="The-Originals.php">Mais ...</a></p>
     </div>
     <div class="thumbnail"><div class="series"><a href="Stranger-Things.php"><img src="images/stranger-things.jpg" alt="STRANGER THINGS" width="2000" class="cards"/></a>
       <h4><a href="Stranger-Things.php">STRANGER THINGS</a></h4>
-      <p class="tag">&emsp;Ambientada em Montauk, Long Island, conta a história de um garoto que desaparece misteriosamente. Enquanto a polícia, a família e os amigos procuram respostas, eles <a href="Stranger-Things">Mais ...</a></p></div>
+      <p class="tag">&emsp;Ambientada em Montauk, Long Island, conta a história de um garoto que desaparece misteriosamente. Enquanto a polícia, a família e os amigos procuram respostas, eles <a href="Stranger-Things.php">Mais ...</a></p></div>
       </div>
   </div>
   <!-- Footer Section -->
